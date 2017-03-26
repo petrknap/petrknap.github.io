@@ -7,6 +7,7 @@
     {% include cdn/bootstrap.html to="head" %}
     {% include cdn/font-awesome.html to="head" %}
     {% include cdn/cookieConsent2.html to="head" %}
+    {% include cdn/pygments.html to="head" %}
     <link rel="stylesheet" href="{{ site.url }}/assets/style.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/blog/style.css">
 </head>
@@ -55,6 +56,7 @@
     </div>
 </div>
 {% include cdn/cookieConsent2.html to="body" %}
+{% include cdn/pygments.html to="body" %}
 {% include google_analytics.html %}
 </body>
 </html>
