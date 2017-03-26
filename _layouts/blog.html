@@ -4,8 +4,8 @@
     {% include http_headers.html %}
     {% include meta.html %}
     <title>{% if site.blog.title != page.title %}{{ site.blog.title }} - {% endif %}{{ page.title }}</title>
-    {% include cdn/bootstrap.html %}
-    {% include cdn/font-awesome.html %}
+    {% include cdn/bootstrap.html to="head" %}
+    {% include cdn/font-awesome.html to="head" %}
     {% include cdn/cookieConsent2.html to="head" %}
     <link rel="stylesheet" href="{{ site.url }}/assets/style.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/blog/style.css">

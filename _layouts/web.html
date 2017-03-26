@@ -4,7 +4,7 @@
     {% include http_headers.html %}
     {% include meta.html %}
     <title>{{ page.title }}</title>
-    {% include cdn/bootstrap.html %}
+    {% include cdn/bootstrap.html to="head" %}
     {% include cdn/font-awesome.html %}
     {% include cdn/fullPage.js.html to="head" %}
     {% include cdn/cookieConsent2.html to="head" %}
@@ -43,7 +43,7 @@
         {% include footer.html %}
     </div>
 </footer>
-{% include cdn/jQuery.html %}
+{% include cdn/jQuery.html to="body" %}
 {% include cdn/fullPage.js.html to="body" %}
 {% include cdn/cookieConsent2.html to="body" %}
 <script type="application/javascript" src="{{ site.url }}/assets/web/script.js"></script>

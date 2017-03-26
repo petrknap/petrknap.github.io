@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Petr Knap">
+    {% include http_headers.html %}
+    {% include meta.html %}
     <title>petrknap/php{% if page.name != "index.md" %}-{{ page.name | remove: ".md" }}{% endif %}</title>
-    {% include cdn/bootstrap.html %}
-    <link rel="stylesheet"
-          href="https://cdn.rawgit.com/richleland/pygments-css/a6298ad8ad0c7034be2ae4c11b2b3f0d2944aed1/github.css"
-          integrity="sha384-QSTWW/b36jpC/E/IQq86QG0Qy3u1rQlhJ0K5CzEzvzIGJgYw+/YDv0kWzsN2mtx5"
-          crossorigin="anonymous">
+    {% include cdn/bootstrap.html to="head" %}
+    {% include cdn/cookieConsent2.html to="head" %}
+    {% include cdn/pygments.html to="head" %}
+    {% include cdn/font-awesome.html to="head" %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/style.css">
     <style>
         .padding {
             height: 70px;
@@ -55,19 +53,24 @@
 <div class="container">
     <div class="row">
         <div class="col-md-offset-2 col-md-8 text-justify">
-            {{ content | replace: ' class="highlight"', ' class="codehilite"' }}
+            {{ content }}
+            <hr>
+            <div>
+                <div class="pull-left">
+                {% include links.html a_class="btn btn-link padding0px2px" %}
+                </div>
+                <div class="pull-right text-muted">
+                {% include footer.html %}
+            </div>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="padding hidden-xs"></div>
-
-{% include cdn/jQuery.html %}
-<script type="application/javascript"
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+{% include cdn/jQuery.html to="body" %}
+{% include cdn/bootstrap.html to="body" %}
 {% include cdn/cookieConsent2.html to="body" %}
+{% include cdn/pygments.html to="body" %}
 {% include google_analytics.html %}
 </body>
 </html>

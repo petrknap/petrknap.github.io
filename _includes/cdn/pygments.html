@@ -1,0 +1,14 @@
+{% if include.to == "head" %}
+<link rel="stylesheet"
+      href="https://cdn.rawgit.com/richleland/pygments-css/a6298ad8ad0c7034be2ae4c11b2b3f0d2944aed1/github.css"
+      integrity="sha384-QSTWW/b36jpC/E/IQq86QG0Qy3u1rQlhJ0K5CzEzvzIGJgYw+/YDv0kWzsN2mtx5"
+      crossorigin="anonymous">
+{% endif %}
+
+{% if include.to == "body" %}
+<script>
+    $(function() {
+        $(".highlight").addClass("codehilite");
+    });
+</script>
+{% endif %}
