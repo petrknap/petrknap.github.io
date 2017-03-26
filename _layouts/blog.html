@@ -29,7 +29,7 @@
                         {% for tag in tags_list %}
                         {% assign tmp_tag_page = (site.pages | where: "category", tag[0] | first) %}
                         <li {% if page.category == tag[0] %}class="active" {% endif %}>
-                            <a href="{{ tmp_tag_page.url }}">
+                            <a href="{{ tmp_tag_page.url }}.html">
                                 {{ tmp_tag_page.title }}
                                 <span class="badge pull-right">{{ tag[1].size }}</span>
                             </a>

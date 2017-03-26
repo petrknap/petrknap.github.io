@@ -8,9 +8,9 @@ private: true
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in site.pages %}
     {% unless page.private %}
-    {% unless page.url contains ".yml" %}
+    {% unless page.path contains ".twig" %}
     <url>
-        <loc>{{ page.url | prepend: site.url }}</loc>
+        <loc>{{ page.url | prepend: site.url }}{% if page.url | slice: -1, 1 not contains "/" %}.html{% endif %}</loc>
     </url>
     {% endunless %}
     {% endunless %}
