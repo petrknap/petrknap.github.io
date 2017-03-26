@@ -9,8 +9,9 @@ private: true
     {% for page in site.pages %}
     {% unless page.private %}
     {% unless page.path contains ".twig" %}
+    {% assign lastChar = page.url | slice: -1, 1 %}
     <url>
-        <loc>{{ page.url | prepend: site.url }}{% if page.url | slice: -1, 1 not contains "/" %}.html{% endif %}</loc>
+        <loc>{{ page.url | prepend: site.url }}{% if lastChar != "/" %}.html{% endif %}</loc>
     </url>
     {% endunless %}
     {% endunless %}
