@@ -1,5 +1,5 @@
 ---
-layout: blueprint.php
+layout: blueprint
 ---
 # Enumerated type for PHP
 
@@ -199,7 +199,7 @@ class MyEntity
 ```
 
 
-{% include php/how-to-install.md %}
+{% include docs/how-to-install.md %}
 
 
 

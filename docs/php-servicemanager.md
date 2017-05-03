@@ -1,5 +1,5 @@
 ---
-layout: blueprint.php
+layout: blueprint
 ---
 # Service manager for PHP
 
@@ -191,7 +191,7 @@ $myClass = $serviceManager->get("MyClass");
 ```
 
 
-{% include php/how-to-install.md %}
+{% include docs/how-to-install.md %}
 
 
 

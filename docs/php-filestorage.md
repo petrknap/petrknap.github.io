@@ -1,5 +1,5 @@
 ---
-layout: blueprint.php
+layout: blueprint
 ---
 # File storage for PHP
 
@@ -64,7 +64,7 @@ foreach ($fileSystem->listContents() as $metadata) {
 ```
 
 
-{% include php/how-to-install.md %}
+{% include docs/how-to-install.md %}
 
 
 

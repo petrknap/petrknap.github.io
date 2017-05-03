@@ -1,5 +1,5 @@
 ---
-layout: blueprint.nette
+layout: blueprint
 ---
 # Nette Bootstrap and Test-Case for PHPUnit
 
@@ -84,9 +84,7 @@ class NetteTestCase extends \PetrKnap\Nette\Bootstrap\PhpUnit\NetteTestCase
 ```
 
 
-## How to install
-
-Run `composer require petrknap/nette-bootstrap` in your project directory. Or manually clone this repository via `git clone https://github.com/petrknap/nette-bootstrap.git`. Or download [this repository as ZIP] and extract files into your project.
+{% include docs/how-to-install.md %}
 
 
 

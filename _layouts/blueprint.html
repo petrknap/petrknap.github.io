@@ -3,7 +3,7 @@
 <head>
     {% include http_headers.html %}
     {% include meta.html %}
-    <title>petrknap/php{% if page.name != "index.md" %}-{{ page.name | remove: ".md" }}{% endif %}</title>
+    <title>petrknap/{% if page.name != "index.md" %}-{{ page.name | remove: ".md" }}{% endif %}</title>
     {% include cdn/bootstrap.html to="head" %}
     {% include cdn/cookieConsent2.html to="head" %}
     {% include cdn/pygments.html to="head" %}
@@ -32,12 +32,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./">petrknap/php</a>
+            <a class="navbar-brand" href="./">petrknap/docs</a>
         </div>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav">
                 {% for package in site.pages %}
-                    {% if package.path contains "php/" and package.name contains ".md" and package.name != "index.md" %}
+                    {% if package.path contains "docs/" and package.name contains ".md" and package.name != "index.md" %}
                         <li{% if page.url == package.url %} class="active"{% endif %}>
                             <a href="{{ package.url }}.html">{{ package.name | remove: ".md" }}</a>
                         </li>
