@@ -6,6 +6,7 @@
 {% endif %}
 
 {% if include.to == "body" %}
+<div id="CookieConsent"></div>
 <script type="application/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.2/cookieconsent.min.js"
         integrity="sha256-KJg6h+Z4gtMtp25btuUpnyEclHY3dU588fYFNGdBFas="
@@ -13,6 +14,7 @@
 <script>
     window.addEventListener("load", function () {
         window.cookieconsent.initialise({
+            "container": document.getElementById("CookieConsent"),
             "palette": {
                 "popup": {
                     "background": "#000"
