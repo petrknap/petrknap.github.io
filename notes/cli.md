@@ -1,6 +1,6 @@
 ---
 layout: blog.index
-position: 2
+position: 3
 title: CLI-max
 description: CLI scripting
 category: cli
