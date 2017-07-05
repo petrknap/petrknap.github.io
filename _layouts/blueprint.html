@@ -36,12 +36,32 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav">
-                {% for package in site.pages %}
-                    {% if package.path contains "docs/" and package.name contains ".md" and package.name != "index.md" %}
-                        <li{% if page.url == package.url %} class="active"{% endif %}>
-                            <a href="{{ package.url }}.html">{{ package.name | remove: ".md" }}</a>
-                        </li>
-                    {% endif %}
+                {% assign package_prefixes = "php,symfony,nette" | split: "," %}
+                {% for package_prefix in package_prefixes %}
+                    {% assign package_prefix_active = false %}
+                    {% assign package_prefix_title = package_prefix %}
+                    {% assign package_prefix_uri = "docs/" | append: package_prefix %}
+                    {% capture packages %}
+                    {% for package in site.pages %}
+                        {% if package.path contains package_prefix_uri and package.name contains ".md" and package.name != "index.md" %}
+                            {% if page.url == package.url %}
+                                {% assign package_prefix_active = true %}
+                            {% endif %}
+                            <li{% if page.url == package.url %} class="active"{% endif %}>
+                                <a href="{{ package.url }}.html">{{ package.name | remove: ".md" }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                    {% endcapture %}
+                    <li class="dropdown{% if package_prefix_active %} active{% endif %}">
+                        <a href="javascript://void" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">
+                            {{ package_prefix_title }} <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            {{ packages }}
+                        </ul>
+                    </li>
                 {% endfor %}
             </ul>
         </div>
