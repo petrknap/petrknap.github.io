@@ -207,6 +207,6 @@ You can follow [netpromotion] and [my GitHub account] if you wish to read real u
 
 
 [netpromotion]:https://github.com/netpromotion
-[Symfony Up!]:https://netpromotion.github.com/symfony-up
+[Symfony Up!]:https://netpromotion.github.io/symfony-up
 [Best Practices for Reusable Bundles]:https://symfony.com/doc/current/bundles/best_practices.html
 [my GitHub account]:https://github.com/petrknap
