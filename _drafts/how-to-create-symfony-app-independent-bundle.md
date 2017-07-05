@@ -11,8 +11,9 @@ keywords:
 ---
 
 If you wish to **create independent [Symfony Bundle](https://symfony.com/doc/current/bundles.html)** then you are on the *Highway to Hell*.
-At @netpromotion we grab our balls and now we are ready to release our tool which solves the most common problems on the highway.
-Now take a seat and read about our solved problems.
+At [netpromotion] we take the ball and run with it.
+Now we are ready to release our tool which solves the most common problems on the highway.
+Please, take a seat and read more.
 
 
 # Last things first - the tool
@@ -20,7 +21,7 @@ Now take a seat and read about our solved problems.
 At the begin, please, let me to introduce you [Symfony Up!] - our tool which solves common problems with independent bundles.
 You can simply **require it by `composer require netpromotion/symfony-up` command**.
 
-You can **build minimal application by `vendor/bin/symfony-up` command**.
+You can **build minimal application by `vendor/bin/symfony-up` command** if you wish.
 
 
 # Run tests without the target application
@@ -64,7 +65,7 @@ class YourBundleServiceTest extends Netpromotion\SymfonyUp\UpTestCase
 
 # Create easily modifiable configuration
 
-When you are ready to use *test first* strategy you need to create configuration.
+When you are ready to use *test-driven development* you need to create configuration.
 
 > For simple configuration settings, rely on the default parameters entry of the Symfony configuration.
 
@@ -153,11 +154,6 @@ class YourBundleService
     /* ... */
 }
 
-class YourBundleConfiguration /* ... */ implements Symfony\Component\Config\Definition\ConfigurationInterface
-{
-    public function getConfigTreeBuilder() {/* ... */}
-}
-
 class YourBundleExtension extends Symfony\Component\DependencyInjection\Extension\Extension
 {
     public function load(array $configs, Symfony\Component\DependencyInjection\ContainerBuilder $container)
@@ -203,6 +199,14 @@ class YourBundleExtension extends Symfony\Component\DependencyInjection\Extensio
 ```
 
 
+# Create application independent reusable symfony bundle
 
+Congratulation, now you are ready to create your own application independent reusable Symfony bundle.
+You can follow [netpromotion] and [my GitHub account] if you wish to read real usages of this tips and hints.
+
+
+
+[netpromotion]:https://github.com/netpromotion
 [Symfony Up!]:https://netpromotion.github.com/symfony-up
 [Best Practices for Reusable Bundles]:https://symfony.com/doc/current/bundles/best_practices.html
+[my GitHub account]:https://github.com/petrknap
