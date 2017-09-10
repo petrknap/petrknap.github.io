@@ -16,7 +16,7 @@ Now we are ready to release our tool which solves the most common problems on th
 Please, take a seat and read more.
 
 
-# Last things first - the tool
+## Last things first - the tool
 
 At the begin, please, let me to introduce you [Symfony Up!] - our tool which solves common problems with independent bundles.
 You can simply **require it by `composer require netpromotion/symfony-up` command**.
@@ -24,7 +24,7 @@ You can simply **require it by `composer require netpromotion/symfony-up` comman
 You can **build minimal application by `vendor/bin/symfony-up` command** if you wish.
 
 
-# Run tests without the target application
+## Run tests without the target application
 
 When you starts with bundles, you probably met the [Best Practices for Reusable Bundles].
 
@@ -63,7 +63,7 @@ class YourBundleServiceTest extends Netpromotion\SymfonyUp\UpTestCase
 ```
 
 
-# Create easily modifiable configuration
+## Create easily modifiable configuration
 
 When you are ready to use *test-driven development* you need to create configuration.
 
@@ -134,7 +134,7 @@ your_bundle:
 ```
 
 
-# Register services dependent on configuration
+## Register services dependent on configuration
 
 When you have configuration, you **need to use the values** in your services.
 
@@ -171,7 +171,7 @@ class YourBundleExtension extends Symfony\Component\DependencyInjection\Extensio
 ```
 
 
-# Register your configuration as service for controllers
+## Register your configuration as service for controllers
 
 If **you need to access your configuration in controllers**, you can use controller as service and register it the same way as regular service.
 But it isn't practical, much better solution is to **register your configuration as service**.
@@ -199,7 +199,7 @@ class YourBundleExtension extends Symfony\Component\DependencyInjection\Extensio
 ```
 
 
-# Create application independent reusable symfony bundle
+## Create application independent reusable symfony bundle
 
 Congratulation, now you are ready to create your own application independent reusable Symfony bundle.
 You can follow [netpromotion] and [my GitHub account] if you wish to read real usages of this tips and hints.
