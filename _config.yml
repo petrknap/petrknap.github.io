@@ -46,7 +46,7 @@ blog:
   title: Petr Knap's Notes
   urls:
     home: /notes/
-    issues: https://github.com/petrknap/petrknap.github.io/issues
+    issues: https://github.com/petrknap/trunk/issues
 
 web:
   menu:
