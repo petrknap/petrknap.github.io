@@ -19,6 +19,7 @@ http:
     Content-Security-Policy: >
       default-src 'self' 'unsafe-inline'
       https://petrknap.github.io https://gist.github.com https://assets-cdn.github.com https://cdn.rawgit.com
+      https://connect.facebook.net http://staticxx.facebook.com https://www.facebook.com
       https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://www.google-analytics.com;
       report-uri https://petrknap.report-uri.io/r/default/csp/enforce
     Strict-Transport-Security: max-age=259200
