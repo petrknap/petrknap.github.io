@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: How @FCAGroup lost customer in six months (Bravissimo @FIAT) #FIAT #FiatTipo "review"
+title: How @FCAGroup lost customer in six months (Bravissimo @FIAT)
 category: other
 keywords:
     - FCA Group
