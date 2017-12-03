@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: How @FCAGroup lost customer(s) in six months (Bravissimo @FIAT) #FIAT #FiatTipo "review"
+title: How @FCAGroup lost customer in six months (Bravissimo @FIAT) #FIAT #FiatTipo "review"
 category: other
 keywords:
     - FCA Group
@@ -92,7 +92,6 @@ The customer is good enough for...
 But enough of the feelings – the fact is that:
 
  * **FCA Group lost a customer** who buys new car every 1-3 years
- * My employer does **not consider the classification of FCA Group cars** in its fleet
  * **I lost my interest in Italian cars** in general 
  * **I'm waiting for factory-new Citröen** C4 Cactus now
 
