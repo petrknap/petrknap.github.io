@@ -45,7 +45,7 @@ He invited two more workers, and they began to consult what happened with the ca
 It took an hour and **they did not allow me to submit the complaint through their consultation**.
 
 > Průběh reklamace a jednání dealera bohužel není pod dohledem společnosti FCA ČR.
-> -- Customer Care CR&SR
+> -- *Customer Care CR&SR*
 
 So **I contacted the customer care of FCA Group**.
 I explained to them what happened, that I wanted to submit a complaint about the paint, etc.
@@ -77,8 +77,9 @@ The **third complaint was in the world**.
 ## Current situation
 
 The current situation is that FIAT:
+
  * **reevaluates** the first complaint
- * **decides** on the second complaint
+ * **decides** on the second complaint / updated: **approved** after 31 days of silence
  * **approved** the third complaint and the rear-light was fixed
  
 It has been taking **several months and 1 of 3 defects has been repaired**.
@@ -98,4 +99,4 @@ But enough of the feelings – the fact is that:
 I apologize to all fans of FCA Group and **thank you all for reading and sharing**.
 
 > I'm so sorry.
-> -- me
+> -- *me*
