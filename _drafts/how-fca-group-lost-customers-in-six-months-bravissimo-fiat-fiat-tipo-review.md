@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: How @FCAGroup lost customer(s) in six moths (Bravissimo @FIAT) #FIAT #FiatTipo "review"
+title: How @FCAGroup lost customer(s) in six months (Bravissimo @FIAT) #FIAT #FiatTipo "review"
 category: other
 keywords:
     - FCA Group
@@ -21,6 +21,8 @@ I started looking at Alfa-Romeo, FIAT and even at Maserati.
 Finally **I chose the FIAT Tipo**, because the car fulfilled several features – Italian not-so-large sedan in black color.
 Car for gangsters, **I started to look forward to it**.
 
+![FIAT Tipo](/notes/data/2017-12-03/fiat-tipo/front.jpg)
+
 I picked up the car last March.
 It was a **very joyful day for me**, finally I had my dream Italian car.
 My black sedan, friends named it "Al Tipone".
@@ -34,6 +36,8 @@ After my return from a business trip, something appeared on the roof of the car 
 I washed the car, and when the paint didn't go wash off, I touched it with my finger and found it wasn't a drop of color.
 **Metallic paint disappeared from the roof of the car.**
 I immediately brought the car to the dealer for a complaint and the whole thing started.
+
+![Metallic paint disappeared from the roof of the car](/notes/data/2017-12-03/fiat-tipo/roof.jpg)
 
 I arrived at the dealer with the words that I want to submit a complaint about the car paint.
 The technician said he's **never seen anything like this**.
@@ -53,17 +57,21 @@ Everything was **completely conflicting**, and the complaint was rejected.
 **I sent a complaint to the Česká Obchodní Inspekce**, due to suspicion of repeated violations of laws.
 
 
-## Strange objects under painting & behind rear light 
+## Strange objects under painting & behind rear light
 
 About a week later **I discovered a strange object under the surface of the painting** – dirt, shaving...
 I still don 't know what it is.
 Again, I tried to complain and **again the submission of the complaint failed** for the first time.
+
+![Strange object under painting](/notes/data/2017-12-03/fiat-tipo/side.jpg)
 
 After these two problems with painting **there was a third problem** - with the rear light.
 The lights are supplied to the factory wrapped in a protective film.
 **This film must be removed before the light is mounted, but not at FIAT.**
 The light was installed wrapped in a protective film.
 The **third complaint was in the world**.
+
+![Strange object behind rear light](/notes/data/2017-12-03/fiat-tipo/rear.jpg)
 
 
 ## Current situation
