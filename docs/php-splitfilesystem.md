@@ -1,12 +1,12 @@
 ---
 layout: blueprint
 ---
-# File storage for PHP
+# Split Filesystem for PHP
 
 * [About resolved issue](#about-resolved-issue)
     * [Advantages](#advantages)
     * [Disadvantages](#disadvantages)
-* [Usage of php-filestorage](#usage-of-php-filestorage)
+* [Usage of php-splitfilesystem](#usage-of-php-splitfilesystem)
     * [Standard usage](#standard-usage)
 * [How to install](#how-to-install)
 
@@ -22,12 +22,11 @@ layout: blueprint
 
 This file storage solves this issue simply - it **creates virtual layer between file system and application**. Every path is converted into path which is composed from many directories which contains only small amount of sub-directories.
 
-If you wish to store 1 000 000 files in single directory, this file storage converts paths and stores them in huge tree-structure. Every directory (exclude leafs) contains up to 256 sub-directories. Leafs contains only files.
+If you wish to store 1 000 000 files in single directory, this file storage converts paths and stores them in tree-structure. Every directory contains only small amount of directories and files (depends on configuration).
 
 ### Advantages
 
  * Can store a huge amount of files in single directory
- * Can use fully localized paths to files (f.e.: `/シックス.log`)
  * Naturally protects files outside the storage
  * Every user can has separated and isolated file storage
  * Fully compatible and based on [League\Flysystem]
@@ -35,31 +34,36 @@ If you wish to store 1 000 000 files in single directory, this file storage conv
 ### Disadvantages
 
  * Real file structure is not user-friendly
- * Can not effectively get files sorted by any key (without DBMS)
 
 
 
-## Usage of php-filestorage
+## Usage of php-splitfilesystem
 
 ### Standard usage
 
 ```php
 <?php
 
-use League\Flysystem\Adapter\Local as LocalAdapter;
-use PetrKnap\Php\FileStorage\FileSystem;
-use PetrKnap\Php\FileStorage\Plugin\SQLiteIndexPlugin;
+use League\Flysystem\Adapter\Local;
+use League\Flysystem\Config;
+use PetrKnap\Php\SplitFilesystem\SplitFilesystem;
 
-$fileSystem = new FileSystem(new LocalAdapter(__DIR__ . "/temp"));
-SQLiteIndexPlugin::register($fileSystem, __DIR__ . "/temp/index.sqlite"); // optional
+$optionalConfig = new Config([
+    SplitFilesystem::CONFIG_HASH_PART_LENGTH_FOR_DIRECTORIES => 3, // up to 1024 sub-nodes
+    SplitFilesystem::CONFIG_HASH_PART_LENGTH_FOR_FILES => 2, // up to 256 sub-nodes
+    SplitFilesystem::CONFIG_HASH_PARTS_FOR_DIRECTORIES => 1, // 1-level sub-tree
+    SplitFilesystem::CONFIG_HASH_PARTS_FOR_FILES => 3, // 3-level sub-tree
+]);
 
-$fileSystem->write("/file.txt", null);
-$fileSystem->update("/file.txt", "Hello World!");
+$fileSystem = new SplitFilesystem(new Local(__DIR__ . '/temp'), $optionalConfig);
 
-printf("%s", $fileSystem->read("/file.txt"));
+$fileSystem->write('file.txt', null);
+$fileSystem->update('file.txt', 'Hello World!');
+
+printf('%s', $fileSystem->read('file.txt'));
 
 foreach ($fileSystem->listContents() as $metadata) {
-    $fileSystem->delete($metadata["path"]);
+    $fileSystem->delete($metadata['path']);
 }
 ```
 
