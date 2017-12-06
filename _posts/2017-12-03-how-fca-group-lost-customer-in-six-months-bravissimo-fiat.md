@@ -60,7 +60,7 @@ Everything was **completely conflicting**, and the complaint was rejected.
 ## Strange objects under painting & behind rear light
 
 About a week later **I discovered a strange object under the surface of the painting** – dirt, shaving...
-I still don 't know what it is.
+I still don't know what it is.
 Again, I tried to complain and **again the submission of the complaint failed** for the first time.
 
 ![Strange object under painting](/notes/data/2017-12-03/fiat-tipo/side.jpg)
@@ -78,7 +78,7 @@ The **third complaint was in the world**.
 
 The current situation is that FIAT:
 
- * **reevaluates** the first complaint
+ * **rejected** the first complaint
  * **decides** on the second complaint / updated: **approved** after 31 days of silence
  * **approved** the third complaint and the rear-light was fixed
  
