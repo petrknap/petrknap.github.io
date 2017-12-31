@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: Encrypted QNAP TS-228 in OpenVPN network #solved
+title: "Encrypted QNAP TS-228 in OpenVPN network #solved"
 category: hardware
 keywords:
     - QNAP TS-228
