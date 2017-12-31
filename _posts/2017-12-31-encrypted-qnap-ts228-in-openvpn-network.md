@@ -37,7 +37,7 @@ This is fine, but it has the same effect as if you don't use encryption (which a
 So we need another solution.
 
 
-## Encrypted NAS as VPN server
+### Encrypted NAS as VPN server
 
 You must:
 
@@ -49,7 +49,7 @@ You must:
 There is **no effective way** how to use encrypted [QNAP TS-228] as VPN server.
 
 
-## Encrypted NAS as VPN client
+### Encrypted NAS as VPN client
 
 This way has same problems as previous, but **you have another machine as VPN server**.
 The most important for our solution is that **SSH and Cron are system services accessible after boot**.
