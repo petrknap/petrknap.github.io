@@ -10,23 +10,23 @@ keywords:
     - QTS
 ---
 
-We bought QNAP TS-228 as simple storage for @netpromotion some time ago (we also bought Synology DS216se as backup, but it's even worse choice than TS-228).
-The role of the NAS is storage for employees, so the **TS-228 looks as great solution for it** (in theory).
-Now we know that **we should have bought a HP ProLiant MicroServer** instead.
+We bought [QNAP TS-228] as simple storage for @netpromotion some time ago (we also bought [Synology DS216se] as backup, but it's even worse choice than [TS-228]).
+The role of the NAS is storage for employees, so the **[TS-228] looks as great solution for it** (in theory).
+Now we know that **we should have bought a [HP ProLiant MicroServer]** instead.
 So if **you are planning to make storage for your company, please use standard server** instead of NAS.
 
 Key features for us was:
 
- * secure access as being a VPN server & VPN client
+ * secure access via VPN
  * volume encryption
  * cross-platform file sharing
  * outgoing rsync backup
- * average of 112 MB/s reading and 81 MB/s writing speed
+ * 100+ MB/s reading and 80+ MB/s writing speed
 
 
-## Applications versus encryption
+## The problem
 
-The main problem of the QNAP TS-228 is implementation of encryption and custom services (like VPN).
+The main problem of the [QNAP TS-228] is implementation of encryption and custom services (like VPN).
 It supports only **one volume per drive/RAID pool** and stores **all custom services on data volume**.
 The result is that you can have encrypted drive or you can use custom services, but no both at the same time.
 
@@ -46,7 +46,7 @@ You must:
  3. start VPN to access QTS
  4. know that it's impossible
 
-There is **no effective way** how to use encrypted QNAP TS-228 as VPN server.
+There is **no effective way** how to use encrypted [QNAP TS-228] as VPN server.
 
 
 ## Encrypted NAS as VPN client
@@ -73,6 +73,13 @@ Where:
  * `{server}` is domain name (or public IP) of VPN server
  * `{port}` is the SSH port of VPN server
 
-As you can see, it try to find the SSH tunnel in active processes every minute.
+As you can see, it tries to find the SSH tunnel in active processes every minute.
 If the tunnel was not found, the Cron will start it.
-This solves system boot and tunnel crash in one nice command.
+This covers system boot and tunnel crash in one nice command.
+
+
+
+[QNAP TS-228]:https://www.qnap.com/en-us/product/ts-228
+[TS-228]:https://www.qnap.com/en-us/product/ts-228
+[Synology DS216se]:https://www.synology.com/en-us/products/DS216se
+[HP ProLiant MicroServer]:https://www.google.com/search?q=HP+ProLiant+MicroServer
