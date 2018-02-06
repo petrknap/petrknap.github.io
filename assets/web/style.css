@@ -75,3 +75,7 @@
     background: #fff;
     padding: 5px 5px 0 5px;
 }
+
+.web-footer-links {
+    z-index: -999;
+}
