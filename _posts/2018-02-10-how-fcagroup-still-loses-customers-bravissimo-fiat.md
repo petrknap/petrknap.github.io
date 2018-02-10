@@ -15,7 +15,7 @@ As you know from [my first article about my factory new Fiat Tipo](/notes/2017/1
 You also know, that there was a problem with a dealer, with a customer care and **now there is a problem with authorized service too**.
 *Hurrah!* 
 
-![The last time I have seen my car](/notes/data/fiat-tipo/good-bye.jpg)
+![The last time I have seen my car](/notes/data/2018-02-10/fiat-tipo/good-bye.jpg)
 
 Today is about half of February 2018 (complaint submitted in October 2017), the **deadline for repair is gone** and they don’t contact me.
 So I take my phone and call them to get information that **they need more time to finish the repairs**. 
