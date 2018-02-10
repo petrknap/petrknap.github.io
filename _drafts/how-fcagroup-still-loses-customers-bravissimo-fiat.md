@@ -11,7 +11,7 @@ keywords:
     - car complaints
 ---
 
-As you know from [my first article about my factory new Fiat Tipo] there **was approved 2 of 3 complaints** to be rapaired.
+As you know from [my first article about my factory new Fiat Tipo](/notes/2017/12/03/how-fca-group-lost-customer-in-six-months-bravissimo-fiat.html) there **was approved 2 of 3 complaints** to be rapaired.
 You also know, that there was a problem with a dealer, with a customer care and **now there is a problem with authorized service too**.
 *Hurrah!* 
 
