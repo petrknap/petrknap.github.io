@@ -36,7 +36,7 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav">
-                {% assign package_prefixes = "php,symfony,nette" | split: "," %}
+                {% assign package_prefixes = "php,symfony" | split: "," %}
                 {% for package_prefix in package_prefixes %}
                     {% assign package_prefix_active = false %}
                     {% assign package_prefix_title = package_prefix %}
