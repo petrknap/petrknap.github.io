@@ -24,7 +24,7 @@ My first car was "still new" Škoda Fabia (the third generation).
 OK, it's not my first car, but first car which has my name on technical card.
 **I wish to have black one which yellow details and wheels**, but I finally choose less extravagant green color called "Rallye".
 
-![Škoda Fabia aka Mr. Froggy](/notes/data/skoda-new-fabia-vs-fiat-tipo-vs-citroen-c4-cactus/skoda-fabia-iii.jpg)
+![Škoda Fabia aka Mr. Froggy](/notes/data/2018-06-02/skoda-new-fabia-vs-fiat-tipo-vs-citroen-c4-cactus/skoda-fabia-iii.jpg)
 
 ### The first look
 
@@ -59,7 +59,7 @@ My second car was "still new" Fiat Tipo (Aega).
 I choose sedan because FIAT didn't offer another version when I made my choice.
 The black color was called "Cinema Black".
 
-![FIAT Tipo aka Al-Tipone](/notes/data/skoda-new-fabia-vs-fiat-tipo-vs-citroen-c4-cactus/fiat-tipo-aega.jpg)
+![FIAT Tipo aka Al-Tipone](/notes/data/2018-06-02/skoda-new-fabia-vs-fiat-tipo-vs-citroen-c4-cactus/fiat-tipo-aega.jpg)
 
 ### The first look
 
@@ -93,7 +93,7 @@ I choose this car because it was last chance to order this model and I fall in l
 I choose the green-yellow color called "Hello Yellow" combined with black details and wheels and brown interior.
 Yes, **it's very similar to combination what I wished to have on Škoda Fabia**.
 
-![Citroën C4 Cactus (still no-name)](/notes/data/skoda-new-fabia-vs-fiat-tipo-vs-citroen-c4-cactus/citroen-c4-cactus.jpg)
+![Citroën C4 Cactus (still no-name)](/notes/data/2018-06-02/skoda-new-fabia-vs-fiat-tipo-vs-citroen-c4-cactus/citroen-c4-cactus.jpg)
 
 ### The first look
 
