@@ -22,7 +22,7 @@ How do it stand next to my previous cars Škoda Fabia and FIAT Tipo?
 
 My first car was "still new" Škoda Fabia (the third generation).
 OK, it's not my first car, but first car which has my name on technical card.
-**I wish to have black one which yellow details and wheels**, but I finally choose less extravagant green color called "Rallye".
+**I wish to have black one with yellow details and wheels**, but I finally choose less extravagant green color called "Rallye".
 
 ![Škoda Fabia aka Mr. Froggy](/notes/data/2018-06-02/skoda-new-fabia-vs-fiat-tipo-vs-citroen-c4-cactus/skoda-fabia-iii.jpg)
 
@@ -35,7 +35,7 @@ The car is **well balanced**.
 ### Quality
 
 This Škoda was my best-made car ever.
-Everything **perfectly sits** on its's place.
+Everything **perfectly sits** on it's place.
 Everything **works** in every situation.
 Nothing luxury, but everything **looks good**.
 And ESP & Front Assist **saves my pocket and bones** two times.
@@ -108,7 +108,7 @@ OK, it's not German car, like Škoda Fabia, but **the quality is better then I w
 The biggest problem of this car is a software.
 It's really **hard to disable "Eco" feature** (Start & Stop).
 Even if the system animate push on button S&S keeps active.
-And the boot time of the infotainment is "flexible" - sometimes it's up before engine starts, **sometimes it's still booting while you're leaving your street**.
+And the boot time of the infotainment is "flexible" - sometimes it's up before engine starts, **sometimes it's still booting while I'm leaving our street**.
 
 The big thumb up for the **tires with wide sidewalls which protects wheels** during parallel parking.
 
