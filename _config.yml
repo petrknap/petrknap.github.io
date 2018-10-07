@@ -21,7 +21,7 @@ http:
       https://petrknap.github.io https://gist.github.com https://assets-cdn.github.com https://cdn.rawgit.com
       https://connect.facebook.net http://staticxx.facebook.com https://www.facebook.com https://web.facebook.com https://m.facebook.com
       https://platform.twitter.com https://syndication.twitter.com https://cdn.syndication.twimg.com/ https://pbs.twimg.com
-      https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://www.google-analytics.com
+      https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://www.google-analytics.com
     Strict-Transport-Security: max-age=259200
     X-Content-Type-Options: nosniff
 
