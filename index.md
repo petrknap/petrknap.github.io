@@ -11,39 +11,8 @@ sections:
       Software engineer with experience & master degree
   -
     content: |+
-      ## Leisure-time
-    slides:
-      -
-        content: |+
-          ## Open-source
-
-          If you want to peek under the hood of all my open-source projects,
-          then [visit my GitHub account](https://github.com/petrknap).
-
-          Another interesting things you can [find on my Gist](https://gist.github.com/petrknap).
-      -
-        content: |+
-          ## Born Free Foundation
-
-          I am member of [Born Free Foundation](http://www.bornfree.org.uk/), sponsor of [Big Cats Campaign](http://www.bornfree.org.uk/campaigns/big-cats/)
-          and semi-adopter of two tigers, Roque and Jasper.
-      -
-        content: |+
-          ## Big Cat Rescue
-
-          I am sponsor of [Big Cat Rescue](http://bigcatrescue.org/).
-  -
-    content: |+
       ## Experience
     slides:
-      -
-        hidden: true
-        content: |+
-          ## Ready to work
-
-          If you are looking for a new colleague, do not hesitate to contact me.
-
-          You can contact me by email at [job@petrknap.cz](mailto:job@petrknap.cz) or via [LinkedIn](https://www.linkedin.com/in/pknap).
       -
         content: |+
           ## Lead programmer
@@ -74,17 +43,41 @@ sections:
 
           In high school I worked as a foreman
           for [Capsa.cz](http://www.capsa.cz/)
+      -
+        hidden: true
+        content: |+
+          ## Ready to work
+
+          If you are looking for a new colleague, do not hesitate to contact me.
+
+          You can contact me by email at [job@petrknap.cz](mailto:job@petrknap.cz) or via [LinkedIn](https://www.linkedin.com/in/pknap).
+  -
+    content: |+
+      ## Leisure-time
+    slides:
+      -
+        content: |+
+          ## Open-source
+
+          If you want to peek under the hood of all my open-source projects,
+          then [visit my GitHub account](https://github.com/petrknap).
+
+          Another interesting things you can [find on my Gist](https://gist.github.com/petrknap).
+      -
+        content: |+
+          ## Born Free Foundation
+
+          I am member of [Born Free Foundation](http://www.bornfree.org.uk/), sponsor of [Big Cats Campaign](http://www.bornfree.org.uk/campaigns/big-cats/)
+          and semi-adopter of two tigers, Roque and Jasper.
+      -
+        content: |+
+          ## Big Cat Rescue
+
+          I am sponsor of [Big Cat Rescue](http://bigcatrescue.org/).
   -
     content: |+
       ## Education
     slides:
-      -
-        content: |+
-          ## Open to self improvement
-
-          Do you feel that you would be able to teach me new tricks?
-
-          Then feel free to contact me by email at [learn@petrknap.cz](mailto:learn@petrknap.cz).
       -
         content: |+
           ## Information Technology (Ing.)
@@ -102,4 +95,11 @@ sections:
           ## Elektronické počítačové systémy
 
           [Střední průmyslová škola Trutnov](http://spstrutnov.cz/)
+      -
+        content: |+
+          ## Open to self improvement
+
+          Do you feel that you would be able to teach me new tricks?
+
+          Then feel free to contact me by email at [learn@petrknap.cz](mailto:learn@petrknap.cz).
 ---

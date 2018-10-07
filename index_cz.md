@@ -12,39 +12,8 @@ sections:
       Vystudovaný softwarový inženýr s praxí
   -
     content: |+
-      ## Volný čas
-    slides:
-      -
-        content: |+
-          ## Open-source
-
-          Pokud chcete nahlédnout pod pokličku všech mých open source projektů,
-          pak [navšitvte můj GitHub účet](https://github.com/petrknap).
-
-          Další zajímavé věci můžete [nalézt na mém Gistu](https://gist.github.com/petrknap).
-      -
-        content: |+
-          ## Born Free Foundation
-
-          Jsem členem [Born Free Foundation](http://www.bornfree.org.uk/), sponzorem [Big Cats Campaign](http://www.bornfree.org.uk/campaigns/big-cats/)
-          a spolu-adoptérem dvou tygrů, Roque a Jaspera.
-      -
-        content: |+
-          ## Big Cat Rescue
-
-          Jsem sponzorem [Big Cat Rescue](http://bigcatrescue.org/).
-  -
-    content: |+
       ## Pracovní zkušenosti
     slides:
-      -
-        hidden: true
-        content: |+
-          #### Připraven k zaměstnání
-
-          Hledáte-li nového kolegu, neváhejte se na mne obrátit.
-
-          Kontaktovat mne můžete e-mailem na [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
       -
         content: |+
           ## Vedoucí programátor
@@ -75,17 +44,41 @@ sections:
 
           Při středoškolském studiu jsem působil jako brigádník
           u [Capsa.cz](http://www.capsa.cz/)
+      -
+        hidden: true
+        content: |+
+          #### Připraven k zaměstnání
+
+          Hledáte-li nového kolegu, neváhejte se na mne obrátit.
+
+          Kontaktovat mne můžete e-mailem na [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
+  -
+    content: |+
+      ## Volný čas
+    slides:
+      -
+        content: |+
+          ## Open-source
+
+          Pokud chcete nahlédnout pod pokličku všech mých open source projektů,
+          pak [navšitvte můj GitHub účet](https://github.com/petrknap).
+
+          Další zajímavé věci můžete [nalézt na mém Gistu](https://gist.github.com/petrknap).
+      -
+        content: |+
+          ## Born Free Foundation
+
+          Jsem členem [Born Free Foundation](http://www.bornfree.org.uk/), sponzorem [Big Cats Campaign](http://www.bornfree.org.uk/campaigns/big-cats/)
+          a spolu-adoptérem dvou tygrů, Roque a Jaspera.
+      -
+        content: |+
+          ## Big Cat Rescue
+
+          Jsem sponzorem [Big Cat Rescue](http://bigcatrescue.org/).
   -
     content: |+
       ## Vzdělání
     slides:
-      -
-        content: |+
-          ## Otevřen sebezlepšování
-
-          Máte pocit, že byste mne mohli naučit novým kouskům?
-
-          Pak neváhejte a kontaktujte mne e-mailem na [learn@petrknap.cz](mailto:learn@petrknap.cz).
       -
         content: |+
           ## Informační technologie (Ing.)
@@ -103,4 +96,11 @@ sections:
           ## Elektronické počítačové systémy
 
           [Střední průmyslová škola Trutnov](http://spstrutnov.cz/)
+      -
+        content: |+
+          ## Otevřen sebezlepšování
+
+          Máte pocit, že byste mne mohli naučit novým kouskům?
+
+          Pak neváhejte a kontaktujte mne e-mailem na [learn@petrknap.cz](mailto:learn@petrknap.cz).
 ---
