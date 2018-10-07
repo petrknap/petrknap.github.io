@@ -6,25 +6,45 @@
     <title>{{ page.title }}</title>
     {% include cdn/bootstrap.html to="head" %}
     {% include cdn/font-awesome.html %}
-    {% include cdn/fullPage.js.html to="head" %}
+    {% include cdn/reveal.js.html to="head" %}
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/hakimel/reveal.js@3.7.0/css/theme/black.css"
+          integrity="sha384-cn9dilqoer4cWsW00FCDy1KoGoUYTsraspG21/OkBdSU4IzGLmis2B/dfq/lWjZH"
+          crossorigin="anonymous">
     {% include cdn/cookieConsent2.html to="head" %}
     <link rel="stylesheet" href="{{ site.url }}/assets/style.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/web/style.css">
 </head>
 <body>
-<div id="fullPage">
-{% for section in page.sections %}
-    <div class="section{% if section.slides %} slider{% endif %}">
-        {{ section.content | markdownify }}
+<header class="hidden">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+</header>
+<div class="reveal">
+    <div class="slides">
+        {% for section in page.sections %}
+        {% if section.hidden %}{% else %}
         {% if section.slides %}
-        {% for slide in section.slides %}
-        <div class="slide{% if slide.active %} active{% endif %}">
-            {{ slide.content | markdownify }}
-        </div>
-        {% endfor %}
+        <section>
+            {% endif %}
+            <section>
+                {{ section.content | markdownify }}
+            </section>
+            {% if section.slides %}
+            {% for slide in section.slides %}
+            {% if slide.hidden %}{% else %}
+            <section>
+                {{ slide.content | markdownify }}
+            </section>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            {% if section.slides %}
+        </section>
         {% endif %}
+        {% endif %}
+        {% endfor %}
     </div>
-{% endfor %}
 </div>
 <footer class="web-footer row">
     <div class="web-footer-menu pull-right">
@@ -44,7 +64,7 @@
     </div>
 </footer>
 {% include cdn/jQuery.html to="body" %}
-{% include cdn/fullPage.js.html to="body" %}
+{% include cdn/reveal.js.html to="body" %}
 {% include cdn/cookieConsent2.html to="body" %}
 <script type="application/javascript" src="{{ site.url }}/assets/web/script.js"></script>
 {% include google_analytics.html %}

@@ -1,0 +1,13 @@
+{% if include.to == "head" %}
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/hakimel/reveal.js@3.7.0/css/reveal.css"
+      integrity="sha384-sWNqQWMO8qDhwZOyrvLKmmhXqE2NzoB8HyF9ZnqChsoqfxDsR9CIZGa3PnET0UYC"
+      crossorigin="anonymous">
+{% endif %}
+
+{% if include.to == "body" %}
+<script type="application/javascript"
+        src="https://cdn.jsdelivr.net/gh/hakimel/reveal.js@3.7.0/js/reveal.js"
+        integrity="sha384-1L4CuJXRxdFK9Gw8RxrnohUzC9xZUayOLvylUkvDW3IWKoGV6kva7IevJK7RLevg"
+        crossorigin="anonymous"></script>
+{% endif %}
