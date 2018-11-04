@@ -14,3 +14,13 @@
 .web-footer-links {
     z-index: -999;
 }
+
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url('IMG_20181018_080933.jpg');
+    background-size: cover;
+}
+
+body > .reveal {
+    background-color: rgba(2, 84, 125, 0.9);
+}
