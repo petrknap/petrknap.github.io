@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: How to make DIY CPU air tunnel?
+title: How to make #DIY CPU air tunnel?
 category: hardware
 keywords:
     - DIY
@@ -24,7 +24,7 @@ Do you wish to made it too?
  * ruler
  * glue like thing
 
-![Assembled air tunnel](/notes/data/cpu-air-tunnel/assembled.jpg)
+![Assembled air tunnel](/notes/data/2018-12-23/cpu-air-tunnel/assembled.jpg)
 
 If the computer case has not perforated side, please don't make air tunnel.
 In this case use tower cooler combined with rear exhaust fan.
@@ -42,13 +42,13 @@ In this case use tower cooler combined with rear exhaust fan.
  1. you did it
 
 
-![Don't forget to check it](/notes/data/cpu-air-tunnel/check.jpg)
+![Don't forget to check it](/notes/data/2018-12-23/cpu-air-tunnel/check.jpg)
 
 Don't forget to check the position and length of the tunnel.
 
 ## It works (in my case)
 
-![CPU air tunnel](/notes/data/cpu-air-tunnel/final.jpg)
+![CPU air tunnel](/notes/data/2018-12-23/cpu-air-tunnel/final.jpg)
 
 The package temperature **decreased from 76°C max / 73°C stable load to 72°C max / 68°C stable load**, which means less noise from cooler.
 The boost frequency increased from 3693MHz max / 3393MHz stable load to 3693MHz max / 3418MHz stable load, which means nothing.
