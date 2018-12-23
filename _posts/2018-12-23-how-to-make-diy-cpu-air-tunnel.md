@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: How to make #DIY CPU air tunnel?
+title: "How to make #DIY CPU air tunnel?"
 category: hardware
 keywords:
     - DIY
