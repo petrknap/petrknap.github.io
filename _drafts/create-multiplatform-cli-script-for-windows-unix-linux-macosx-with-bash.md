@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: "Create multi-platform run script"
+title: "Create multi-platform #CLI script for #Windows & #Unix (#Linux & #MacOSX) with #Bash"
 category: cli
 keywords:
     - bash
