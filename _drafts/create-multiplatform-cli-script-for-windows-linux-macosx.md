@@ -43,7 +43,7 @@ The file must contains these parts:
 1. `GOTO Windows` for Windows to skip Unix lines
 1. An unix code and `exit`
 1. An empty line for Windows to explode lines
-1. `:Windows` the anchor for Windows
+1. `:Windows` anchor for Windows
 1. A Windows code and `exit`
 
 Don't forget that **Unix lines must end with `\n`**, but **Windows lines must end with `\n\r`** (`^M` in example).
