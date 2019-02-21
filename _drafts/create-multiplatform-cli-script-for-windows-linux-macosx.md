@@ -42,6 +42,7 @@ The file must contains these parts:
 1. An empty line for Windows to explode first and third line
 1. `GOTO Windows` for Windows to skip Unix lines
 1. An unix code and `exit`
+1. An empty line for Windows to explode first and third line
 1. `:Windows` the anchor for Windows
 1. A Windows code and `exit`
 
