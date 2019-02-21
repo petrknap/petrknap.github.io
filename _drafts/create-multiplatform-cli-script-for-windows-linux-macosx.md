@@ -19,8 +19,8 @@ Interested in how it works?
 
 ## How it works?
 
-It is **based on different line-braking** between Windows and Unix and bash presence on another systems.
-It also expects that Unix system has not `GOTO` command and don't stop on error.
+It is **based on different line-braking** between Windows and Unix and bash presence on Unix systems.
+It also expects that Unix systems has not `GOTO` command and don't stop on error.
 
 ```bash
 #!/bin/bash
