@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: "Create multi-platform #CLI script for #Windows & #Unix (#Linux & #MacOSX) with #Bash"
+title: "Create multi-platform #CLI script for #Windows, #Linux & #MacOSX"
 category: cli
 keywords:
     - bash
@@ -27,7 +27,7 @@ It also expects that Unix system has not `GOTO` command and don't stop on error.
 ^M
 GOTO Windows^M
 
-# Bash
+# Unix
 ls
 exit
 ^M
