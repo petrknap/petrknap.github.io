@@ -41,7 +41,7 @@ The file must contains these parts:
 1. `#!/bin/bash` for Unix to determine how to execute this file
 1. An empty line for Windows to explode lines
 1. `GOTO Windows` for Windows to skip Unix lines
-1. An unix code and `exit`
+1. An Unix code and `exit`
 1. An empty line for Windows to explode lines
 1. `:Windows` anchor for Windows
 1. A Windows code and `exit`
