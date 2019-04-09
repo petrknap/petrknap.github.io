@@ -45,7 +45,7 @@ sections:
           Při středoškolském studiu jsem působil jako brigádník
           u [Capsa.cz](http://www.capsa.cz/)
       -
-        hidden: true
+        hidden: false
         content: |+
           #### Připraven k zaměstnání
 

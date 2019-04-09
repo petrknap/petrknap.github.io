@@ -44,7 +44,7 @@ sections:
           In high school I worked as a foreman
           for [Capsa.cz](http://www.capsa.cz/)
       -
-        hidden: true
+        hidden: false
         content: |+
           ## Ready to work
 
