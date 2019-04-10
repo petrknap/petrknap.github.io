@@ -1,6 +1,6 @@
 ---
 layout: blog.post
-title: "Add month can skip next month in some #PHP cases"
+title: "Add P1M can skip next month in some #PHP cases"
 category: backend
 keywords:
     - php
