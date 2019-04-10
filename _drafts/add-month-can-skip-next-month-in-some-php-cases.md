@@ -4,9 +4,8 @@ title: "Add month can skip next month in some #PHP cases"
 category: backend
 keywords:
     - php
-    - date
-    - datetime
-    - dateinterval
+    - DateTime
+    - DateInterval
 ---
 
 If you are using `new DateInterval('P1M')` for adding month to date to get next month, do not do that.
@@ -33,4 +32,4 @@ $date->modify('first day of next month');
 echo $date->format('Y-m'); // 2019-04
 ```
 
-The `first day of next month` is longer string than `P1M`, but it's self-explanatory and works every time as you wish.
+The `first day of next month` is longer string than `P1M`, but it's self-explanatory and works every time as you expect.
