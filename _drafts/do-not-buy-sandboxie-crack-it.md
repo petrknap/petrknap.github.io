@@ -1,7 +1,7 @@
 ---
 layout: blog.post
 title: "Do not buy #Sandboxie, crack it!"
-category: other
+category: software
 keywords:
     - customer care
     - sandboxie
