@@ -14,7 +14,7 @@ file_put_contents(
     'spayd_qr.png',
     PetrKnap\Php\SpaydQr\SpaydQr::create(
         'CZ7801000000000000000123',
-        799.55,
+        799.50,
         'CZK'
     )->getQrCodeContent(96)
 );
