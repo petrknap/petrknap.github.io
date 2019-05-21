@@ -1,7 +1,7 @@
 ---
 layout: blueprint
 ---
-# Short Payment Descriptor (SPayD) with QR output for PHP
+# Short Payment Descriptor (SPayD) with QR output
 
 It connects [shoptet/spayd-php] and [endroid/qr-code] to one unit.
 
