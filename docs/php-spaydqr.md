@@ -15,9 +15,8 @@ file_put_contents(
     PetrKnap\Php\SpaydQr\SpaydQr::create(
         'CZ7801000000000000000123',
         799.55,
-        'CZK',
-        96
-    )->getQrCodeContent()
+        'CZK'
+    )->getQrCodeContent(96)
 );
 ```
 
