@@ -13,7 +13,7 @@ It connects [shoptet/spayd-php] and [endroid/qr-code] to one unit.
 PetrKnap\Php\SpaydQr\SpaydQr::create(
     'CZ7801000000000000000123',
     Money\Money::CZK(79950)
-)->writeFile('spayd_qr.png', 200);
+)->writeFile('spayd_qr.png');
 ```
 
 
