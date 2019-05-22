@@ -8,12 +8,14 @@ It connects [shoptet/spayd-php] and [endroid/qr-code] to one unit.
 ## Example
 
 ```php
-<?php
+<img src="<?=
 
-PetrKnap\Php\SpaydQr\SpaydQr::create(
-    'CZ7801000000000000000123',
-    Money\Money::CZK(79950)
-)->writeFile('spayd_qr.png');
+    PetrKnap\Php\SpaydQr\SpaydQr::create(
+        'CZ7801000000000000000123',
+        Money\Money::CZK(79950)
+    )->getDataUri();
+
+?>" />
 ```
 
 
