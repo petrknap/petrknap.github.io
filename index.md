@@ -27,7 +27,7 @@ sections:
         content: |+
           ## Leading of developers and programmers
 
-          Regular code-review and consultation for teams with a lack of senior members
+          Regular code-reviews and consultations for teams with a lack of senior members
 
           <small>
           I will teach you how to use Git, tests, code-style, IDE, virtualization<br>
