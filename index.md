@@ -11,6 +11,49 @@ sections:
       Software engineer with experience & master degree
   -
     content: |+
+      ## Offered services
+    slides:
+      -
+        content: |+
+          ## Software development
+
+          Design, implementation and administration of sophisticated software systems
+
+          <small>
+          I create quality (readable, self-explanatory and automatically tested) code<br>
+          that you can access including tests
+          </small>
+      -
+        content: |+
+          ## Leading of developers and programmers
+
+          Regular code-review and consultation for teams with a lack of senior members
+
+          <small>
+          I will teach you how to use Git, tests, code-style, IDE, virtualization<br>
+          and other handy things for your benefit
+          </small>
+      -
+        content: |+
+          ## Consultations
+
+          Regular and one-time consultations about software development and hardware choosing
+
+          <small>
+          I will help you reduce the costs of long-term development and maintenance of software and hardware
+          </small>
+      -
+        content: |+
+          ## Training and courses
+
+          Expand your knowledge and skills in IT
+      -
+        content: |+
+          ## Are you interested in my services?
+
+          You can contact me by email at [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
+  -
+    content: |+
       ## Experience
     slides:
       -
@@ -44,11 +87,10 @@ sections:
           In high school I worked as a foreman
           for [Capsa.cz](http://www.capsa.cz/)
       -
-        hidden: false
         content: |+
-          ## Ready to work
+          ## Ready to be helpful
 
-          If you are looking for a new colleague, do not hesitate to contact me.
+          If you are looking for a keeping momentum, do not hesitate to contact me.
 
           You can contact me by email at [job@petrknap.cz](mailto:job@petrknap.cz) or via [LinkedIn](https://www.linkedin.com/in/pknap).
   -
@@ -102,4 +144,11 @@ sections:
           Do you feel that you would be able to teach me new tricks?
 
           Then feel free to contact me by email at [learn@petrknap.cz](mailto:learn@petrknap.cz).
+  -
+    content: |+
+      ## Identification data
+
+      Ing. Petr Knap (IČO: 08167940)<br>
+      V Údolíčku 262<br>
+      541 02 Trutnov
 ---

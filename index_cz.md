@@ -12,6 +12,49 @@ sections:
       Vystudovaný softwarový inženýr s praxí
   -
     content: |+
+      ## Nabídka služeb
+    slides:
+      -
+        content: |+
+          ## Vývoj softwaru
+
+          Návrh, realizace a provoz sofistikovaných softwarových systémů
+          
+          <small>
+          Vytvářím kvalitní (čitelný, sebevysvětlující a automaticky otestovaný) kód,<br>
+          který budete mít přístupný včetně testů
+          </small>
+      -
+        content: |+
+          ## Vedení vývojářů a programátorů
+
+          Pravidelná code-review a konzultace pro týmy s nedostatkem seniorních členů
+          
+          <small>
+          Naučím Vás používat Git, testy, code-style, IDE, virtualizaci<br>
+          a další šikovné věcí ve Váš prospěch
+          </small>
+      -
+        content: |+
+          ## Konzultace
+
+          Pravidelné i jednorázové konzultace ohledně vývoje softwaru a výběru hardwaru
+          
+          <small>
+          Pomohu Vám snížit náklady na dlouhodobý vývoj a údržbu softwaru i hardwaru
+          </small>
+      -
+        content: |+
+          ## Školení a kurzy
+
+          Rozšiřte své znalosti a schopnosti v oblasti IT
+      -
+        content: |+
+          ## Chcete využít mých služeb?
+  
+          Můžete mne kontaktovat e-mailem na [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
+  -
+    content: |+
       ## Pracovní zkušenosti
     slides:
       -
@@ -45,13 +88,11 @@ sections:
           Při středoškolském studiu jsem působil jako brigádník
           u [Capsa.cz](http://www.capsa.cz/)
       -
-        hidden: false
         content: |+
-          #### Připraven k zaměstnání
+          #### Připraven být nápomocen
 
-          Hledáte-li nového kolegu, neváhejte se na mne obrátit.
-
-          Kontaktovat mne můžete e-mailem na [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
+          Hledáte-li člověka, který Vás posune dál, neváhejte se na mne obrátit.
+          Můžete mne kontaktovat e-mailem na [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
   -
     content: |+
       ## Volný čas
@@ -103,4 +144,11 @@ sections:
           Máte pocit, že byste mne mohli naučit novým kouskům?
 
           Pak neváhejte a kontaktujte mne e-mailem na [learn@petrknap.cz](mailto:learn@petrknap.cz).
+  -
+    content: |+
+      ## Identifikační údaje
+
+      Ing. Petr Knap (IČO: 08167940)<br>
+      V Údolíčku 262<br>
+      541 02 Trutnov
 ---
