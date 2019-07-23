@@ -51,7 +51,7 @@ sections:
         content: |+
           ## Are you interested in my services?
 
-          You can contact me by email at [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
+          You can contact me by email at [job@petrknap.cz](mailto:job@petrknap.cz) or via [LinkedIn](https://www.linkedin.com/in/pknap).
   -
     content: |+
       ## Experience
