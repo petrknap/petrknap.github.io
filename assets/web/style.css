@@ -15,6 +15,10 @@
     z-index: -999;
 }
 
+.reveal .controls {
+    margin-bottom: 10pt !important;
+}
+
 body {
     background-color: rgb(0, 0, 0);
     background-image: url('IMG_20181018_080933.jpg');
