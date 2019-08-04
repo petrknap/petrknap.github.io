@@ -49,12 +49,15 @@ Which one is correct?
 
 So lets use [BODMAS] to get the true answer (`8/2*(2+2)=1`).
 
-1. Do things in **Brackets** First: `8/2*(2+2) -> 8/2*4`
-2. Exponents (Powers, Roots) before Multiply, Divide, Add or Subtract: `8/2*4 -> 8/2*4`
-3. **Multiply or Divide** before you Add or Subtract: `8/2*4 -> 8/2*4`
-4. Otherwise just go **left to right**: `8/2*4 -> 4*4 -> 16`
+1. Do things in **Brackets** First: `8/2*(2+2) = 8/2*4`
+2. Exponents (Powers, Roots) before Multiply, Divide, Add or Subtract
+3. **Multiply or Divide** before you Add or Subtract: `8/2*4 = 8/2*4`
+4. Otherwise just go **left to right**: `8/2*4 = 4*4 = 16`
 
-So... Can anyone explain me why we have this sensation article on [Daily Mail Online] about this "femail"?
+So it looks very clear.
+Can anyone explain me why we have this sensation article on [Daily Mail Online] about it?
+
+
 
 [Daily Mail Online]:https://www.dailymail.co.uk/femail/article-7311141/Mathematician-Hannah-Fry-solves-equation-thats-baffling-internet-days.html
 [Buzzbat, Barkham, United Kingdom]:https://www.dailymail.co.uk/reader-comments/p/comment/link/448100251
