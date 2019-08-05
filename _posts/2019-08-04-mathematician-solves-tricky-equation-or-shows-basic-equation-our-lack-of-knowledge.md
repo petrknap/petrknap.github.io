@@ -47,15 +47,14 @@ Which one is correct?
 > BODMAS=1
 >  -- *[Buzzbat, Barkham, United Kingdom]*
 
-So lets use [BODMAS] to get the true answer (`8/2*(2+2)=1`).
+So lets use [BODMAS] to get the true answer (1).
 
 1. Do things in **Brackets** First: `8/2*(2+2) = 8/2*4`
-2. Exponents (Powers, Roots) before Multiply, Divide, Add or Subtract
-3. **Multiply or Divide** before you Add or Subtract: `8/2*4 = 8/2*4`
+2. Exponents (Powers, Roots) before Multiply, Divide, Add or Subtract: can't apply
+3. Multiply or Divide before you Add or Subtract: can't decide
 4. Otherwise just go **left to right**: `8/2*4 = 4*4 = 16`
 
-So it looks very clear.
-Can anyone explain me why we have this sensation article on [Daily Mail Online] about it?
+So it looks very clear - **the answer is 16**.
 
 
 
