@@ -12,8 +12,6 @@ Method `isAcquired` simply returns state of the instance.
 If different instance acquired the lock, your instance will return `false`.
 
 ```php
-<?php
-
 use Symfony\Component\Lock\Factory;
 use Symfony\Component\Lock\Lock;
 
