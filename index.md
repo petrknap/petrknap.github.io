@@ -80,21 +80,21 @@ sections:
 
           **Member** of [Born Free Foundation](http://www.bornfree.org.uk/),
           **sponsor** of [Big Cats Campaign](http://www.bornfree.org.uk/campaigns/big-cats/)
-          and **semi-adopter** of three tigers, Roque, Jasper and Gopal.
+          and **semi-adopter** of three tigers: Roque, Jasper and Gopal.
       -
         icon: code
         content: |+
           ### Software Developer
 
           Skilled **backend** developer which is capable to help with frontend.
-          Open-source maker with **public** [account on GitHub ](https://github.com/petrknap).
-          Sharer which offers his **knowledge** to you.
+          Open-source maker with **public** [account on GitHub](https://github.com/petrknap).
+          Someone who offers his **knowledge** to you.
       -
         icon: terminal
         content: |+
           ### Dev-Ops Engineer
 
-          Using [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) and [Ansible](https://www.ansible.com/) to **build reliable clusters** and servers.
+          Builder, of **reliable clusters** and servers, using [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) and [Ansible](https://www.ansible.com/).
           **Linux and Windows** administrator, scripter and user.
       -
         icon: server
