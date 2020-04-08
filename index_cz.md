@@ -1,154 +1,123 @@
 ---
-private: true
 layout: web
 lang: cs
-title: Petr Knap
-description: Vystudovaný softwarový inženýr s praxí
+title: Ing. Petr Knap
+description: Softwarový inženýr s praxí i vysokoškolským vzděláním
+cta:
+  icon: linkedin-square
+  text: Proklepněte si mne
+  link: https://www.linkedin.com/in/pknap
 sections:
-  -
+  - icon: info
     content: |+
-      ## Petr Knap
-
-      Vystudovaný softwarový inženýr s praxí
+      ## S čím Vám mohu pomoci?
+    carousel:
+      - icon: cubes
+        content: |+
+          Postavit **Kubernetes kluster** pro Vaši online aplikaci
+      - icon: cube
+        content: |+
+          Vytvořit webový, záložní, VPN nebo jiný **aplikační server**
+      - icon: users
+        content: |+
+          Zorganizovat **trénink, školení nebo workshop** pro Váš tým
+      - icon: hdd-o
+        content: |+
+          **Zálohovat data** z Vašeho úložistě na off-site zařízení
+      - icon: cogs
+        content: |+
+          Návrh a implementace **Vašich softwarových nápadů**
+      - icon: eye
+        content: |+
+          Udělat **code review** a ukázat Vám jak se můžete zlepšit
+      - icon: book
+        content: |+
+          Naučit Vás **pokročilé techniky** programování
+      - icon: desktop
+        content: |+
+          **Vybrat a sestavit** Váš nový hardware
+      - icon: bookmark
+        content: |+
+          Udělat více, čtěte níže
   -
-    content: |+
-      ## Nabídka služeb
-    slides:
+    icon: none
+    content: ''
+    columns_in_row: 3
+    columns:
       -
+        icon: code-fork
         content: |+
-          ## Vývoj softwaru
+          ### Software
 
-          Návrh, realizace a provoz sofistikovaných softwarových systémů
-          
-          <small>
-          Vytvářím kvalitní (čitelný, sebevysvětlující a automaticky otestovaný) kód,<br>
-          který budete mít přístupný včetně testů
-          </small>
+          * Návrh, implementace a údržba **sofistikovaných softwarových** systémů
+          * Pravidelné **code-review a konzultace** pro týmy s nedostatkem seniorních členů
+          * Správa **micro-service docker** serverů v **Kubernetes klusterech**
       -
+        icon: microchip
         content: |+
-          ## Vedení vývojářů a programátorů
+          ### Hardware
 
-          Pravidelná code-review a konzultace pro týmy s nedostatkem seniorních členů
-          
-          <small>
-          Naučím Vás používat Git, testy, code-style, IDE, virtualizaci<br>
-          a další šikovné věcí ve Váš prospěch
-          </small>
+          * Návrh, implementace a údržba **Kubernetes klusterů** a x86/ARM **serverů**/počítačů
+          * Poskytování **Off-site zálohovací služby**
       -
+        icon: users
         content: |+
-          ## Konzultace
+          ### Konzultace
 
-          Pravidelné i jednorázové konzultace ohledně vývoje softwaru a výběru hardwaru
-          
-          <small>
-          Pomohu Vám snížit náklady na dlouhodobý vývoj a údržbu softwaru i hardwaru
-          </small>
-      -
-        content: |+
-          ## Školení a kurzy
-
-          Rozšiřte své znalosti a schopnosti v oblasti IT
-      -
-        content: |+
-          ## Chcete využít mých služeb?
-  
-          Můžete mne kontaktovat e-mailem na [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
+           * Trénink, **školení a workshopy**
+           * Pravidelné i jednorázové **konzultace** k vývoji softwaru a výběru hardwaru
+           * **Snižování nákladů** dlouhodobého vývoje a údržby softwaru a hardwaru
   -
+    icon: user
     content: |+
-      ## Pracovní zkušenosti
-    slides:
+      ## Kdo jsem?
+    columns_in_row: 2
+    columns:
       -
+        icon: heart
         content: |+
-          ## Vedoucí programátor
+          ### Částečně pasivní ochránce
 
-          V současné době pracuji jako vedoucí programátor
-          u [netpromotion group s.r.o.](http://www.netpromotion.cz/)
+          **Člen** [Born Free Foundation](http://www.bornfree.org.uk/),
+          **sponzor** [Big Cats Campaign](http://www.bornfree.org.uk/campaigns/big-cats/)
+          a **spolu-adoptér** tří tygrů: Roque, Jasper a Gopal.
       -
+        icon: code
         content: |+
-          ## Developer & Senior programátor
+          ### Softwarový vývojář
 
-          Dva roky jsem působil na pozici developer &amp; senior programátor
-          u [el nino parfum, s.r.o.](http://www.parfemy-elnino.cz/)
+          Zkušený **backend** vyvojář, který je schopný pomoci s frontendem.
+          Open-source autor s **veřejným** [účtem na GitHub](https://github.com/petrknap).
+          Někdo, kdo Vám nabízí své **znalosti**.
       -
+        icon: terminal
         content: |+
-          ## Junior programátor
+          ### Dev-Ops inženýr
 
-          Dva roky jsem působil jakožto programátor
-          u [wpj s.r.o.](http://www.wpj.cz/)
+          Autor **spolehlyvých klusterů** a serverů používající [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) a [Ansible](https://www.ansible.com/).
+          **Linux a Windows** administrátor, skriptér a uživatel.
       -
+        icon: server
         content: |+
-          ## Copywriter
+          ### Fanoušek hardwaru
 
-          Rok jsem psal články
-          pro server [Digitálně](http://magazin.stahuj.centrum.cz/autori/petr-knap/?g%5Ba%5D=17785)
+          Administrátor mnoha [Raspberry Pi](https://www.raspberrypi.org/) a virtuálních **serverů**.
+          Skladač AMD Zen + nVidia Turing **herních PC**.
+          Tvůrce **bezpečných WiFi Mesh** a **privátních N2N** a OpenVPN sítí.
       -
+        icon: graduation-cap
         content: |+
-          ## Web Developer
+          ### Vzdělaný můž
 
-          Při středoškolském studiu jsem působil jako brigádník
-          u [Capsa.cz](http://www.capsa.cz/)
+          **Informační technologie** (Ing.) na [FEI](https://www.upce.cz/fei/) [UPce](https://www.upce.cz/)<br>
+          Informační a **řídicí technologie** (Bc.) na [FAI](https://www.utb.cz/fai/) [UTB](https://www.utb.cz/)<br>
+          Elektronické počítačové systémy na [SPŠ Trutnov](https://spstrutnov.cz/)<br>
       -
+        icon: id-card
         content: |+
-          #### Připraven být nápomocen
+          ### Ing. Petr Knap
 
-          Hledáte-li člověka, který Vás posune dál, neváhejte se na mne obrátit.
-          Můžete mne kontaktovat e-mailem na [job@petrknap.cz](mailto:job@petrknap.cz) nebo na [LinkedIn](https://www.linkedin.com/in/pknap).
-  -
-    content: |+
-      ## Volný čas
-    slides:
-      -
-        content: |+
-          ## Open-source
-
-          Pokud chcete nahlédnout pod pokličku všech mých open source projektů,
-          pak [navšitvte můj GitHub účet](https://github.com/petrknap).
-
-          Další zajímavé věci můžete [nalézt na mém Gistu](https://gist.github.com/petrknap).
-      -
-        content: |+
-          ## Born Free Foundation
-
-          Jsem členem [Born Free Foundation](http://www.bornfree.org.uk/), sponzorem [Big Cats Campaign](http://www.bornfree.org.uk/campaigns/big-cats/)
-          a spolu-adoptérem dvou tygrů, Roque a Jaspera.
-      -
-        content: |+
-          ## Big Cat Rescue
-
-          Jsem sponzorem [Big Cat Rescue](http://bigcatrescue.org/).
-  -
-    content: |+
-      ## Vzdělání
-    slides:
-      -
-        content: |+
-          ## Informační technologie (Ing.)
-
-          [Fakulta elektrotechniky a informatiky](http://www.upce.cz/fei/),
-          [Univerzita Pardubice](http://www.upce.cz/)
-      -
-        content: |+
-          ## Informační a řídicí technologie (Bc.)
-
-          [Fakulta aplikované informatiky](http://www.utb.cz/fai/),
-          [Univerzita Tomáše Bati ve Zlíně](http://www.utb.cz/)
-      -
-        content: |+
-          ## Elektronické počítačové systémy
-
-          [Střední průmyslová škola Trutnov](http://spstrutnov.cz/)
-      -
-        content: |+
-          ## Otevřen sebezlepšování
-
-          Máte pocit, že byste mne mohli naučit novým kouskům?
-
-          Pak neváhejte a kontaktujte mne e-mailem na [learn@petrknap.cz](mailto:learn@petrknap.cz).
-  -
-    content: |+
-      ## Identifikační údaje
-
-      Ing. Petr Knap (IČO: 08167940)<br>
-      V Údolíčku 262<br>
-      541 02 Trutnov
+          [kontakt@petrknap.cz](mailto:kontakt@petrknap.cz) / 08167940 / tmer95b<br>
+          V Údolíčku 262<br>
+          541 02 Trutnov
 ---
