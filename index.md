@@ -94,7 +94,7 @@ sections:
         content: |+
           ### Dev-Ops Engineer
 
-          Builder, of **reliable clusters** and servers, using [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) and [Ansible](https://www.ansible.com/).
+          Builder of **reliable clusters** and servers using [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) and [Ansible](https://www.ansible.com/).
           **Linux and Windows** administrator, scripter and user.
       -
         icon: server
