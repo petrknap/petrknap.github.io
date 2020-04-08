@@ -6,46 +6,94 @@
     <title>{{ page.title }}</title>
     {% include cdn/bootstrap.html to="head" %}
     {% include cdn/font-awesome.html %}
-    {% include cdn/reveal.js.html to="head" %}
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/theme/black.min.css"
-          integrity="sha256-3Hoq40NpqAW/q7nCWxf0n5o6gGPBLyb2Ym0Qb6iVbW4="
-          crossorigin="anonymous">
     {% include cdn/cookieConsent2.html to="head" %}
     <link rel="stylesheet" href="{{ site.url }}/assets/style.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/web/style.css">
+    <link rel="stylesheet" href="/assets/web/style.css">
 </head>
-<body>
-<header class="hidden">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
+<body class="body-web">
+<header class="container">
+    <div class="page-header row">
+        <div class="jumbotron col-xs-12 col-sm-12 col-md-9 col-lg-8">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.description }}</p>
+            <a href="{{ page.cta.link }}" class="btn btn-success btn-lg pull-right">
+                <i class="fa fa-{{ page.cta.icon }}" aria-hidden="true"></i> {{ page.cta.text }}
+            </a>
+        </div>
+        <div class="hidden-xs hidden-sm col-md-3 col-lg-4">
+            <img src="/assets/web/DM_07317.png" class="img-responsive">
+        </div>
+    </div>
 </header>
-<div class="reveal">
-    <div class="slides">
-        {% for section in page.sections %}
-        {% if section.hidden %}{% else %}
-        {% if section.slides %}
-        <section>
-            {% endif %}
-            <section>
-                {{ section.content | markdownify }}
-            </section>
-            {% if section.slides %}
-            {% for slide in section.slides %}
-            {% if slide.hidden %}{% else %}
-            <section>
-                {{ slide.content | markdownify }}
-            </section>
-            {% endif %}
+{% assign section_number = 0 %}
+{% for section in page.sections %}
+{% if section.hidden %}{% else %}
+{% assign section_number = section_number | plus: 1 %}
+{% capture section_id %}section-{{ section_number }}{% endcapture %}
+<section id="{{ section_id }}" class="container">
+    {% capture replacement %}><i class="fa fa-{{ section.icon }}" aria-hidden="true"></i> {% endcapture %}
+    {{ section.content | markdownify | replace_first: '>', replacement }}
+
+    {% if section.carousel %}
+    <div id="carousel-{{ section_id }}" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="15000">
+        <ol class="carousel-indicators">
+            {% assign index = 0 %}
+            {% for slide in section.carousel %}
+            <li data-target="#carousel-{{ section_id }}" data-slide-to="{{ index }}"{% if index == 0 %} class="active"{% endif %}></li>
+            {% assign index = index | plus: 1 %}
             {% endfor %}
-            {% endif %}
-            {% if section.slides %}
-        </section>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            {% assign first = true %}
+            {% for slide in section.carousel %}
+            <div class="item{% if first %} active{% endif %}">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+                        <div class="jumbotron">
+                            {% capture replacement %}><i class="fa fa-{{ slide.icon }}" aria-hidden="true"></i> {% endcapture %}
+                            {{ slide.content | markdownify | replace_first: '>', replacement }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% assign first = false %}
+            {% endfor %}
+        </div>
+
+        <a class="left carousel-control" href="#carousel-{{ section_id }}" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-{{ section_id }}" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    {% endif %}
+
+    {% if section.columns %}
+    <div class="row">
+        {% assign counter = 0 %}
+        {% for column in section.columns %}
+        {% if column.hidden %}{% else %}
+        {% assign counter = counter | plus: 1 %}
+        {% assign counter_mod = counter | modulo: section.columns_in_row %}
+        <div class="col-sm-12 {% if section.columns_in_row == 2 %}col-md-5{% if counter_mod == 1 %} col-md-offset-1{% endif %}{% else %}col-md-4{% endif %}">
+            {% capture replacement %}><i class="fa fa-{{ column.icon }}" aria-hidden="true"></i> {% endcapture %}
+            {{ column.content | markdownify | replace_first: '>', replacement }}
+        </div>
+        {% if counter_mod == 0 %}
+        <div class="clearfix visible-md-block"></div>
         {% endif %}
         {% endif %}
         {% endfor %}
     </div>
-</div>
+    {% endif %}
+</section>
+{% endif %}
+{% endfor %}
+
 <footer class="web-footer row">
     <div class="web-footer-menu pull-right">
         <ul class="list-unstyled list-inline">
@@ -64,9 +112,9 @@
     </div>
 </footer>
 {% include cdn/jQuery.html to="body" %}
-{% include cdn/reveal.js.html to="body" %}
+{% include cdn/bootstrap.html to="body" %}
 {% include cdn/cookieConsent2.html to="body" %}
-<script type="application/javascript" src="{{ site.url }}/assets/web/script.js"></script>
+<script type="application/javascript" src="/assets/web/script.js"></script>
 {% include google_analytics.html %}
 </body>
 </html>

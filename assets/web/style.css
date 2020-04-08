@@ -1,30 +1,24 @@
+.body-web {
+    margin: 25px;
+}
+
+.body-web h2 {
+    margin-top: 2.5em;
+}
+
+.jumbotron, .carousel-control, .carousel .jumbotron {
+    background: none!important;
+    border: none!important;
+}
+
+.carousel-control, .carousel-indicators {
+    filter: invert(100%);
+}
+
 .web-footer {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 10pt;
-    position: fixed;
-    z-index: 70;
-    bottom: 0;
+    border-top: 1px solid #eee;
     margin: 0;
     width: 100%;
-    border-top: 1px solid #ccc;
-    background: #fff;
-    padding: 5px 5px 0 5px;
-}
-
-.web-footer-links {
-    z-index: -999;
-}
-
-.reveal .controls {
-    margin-bottom: 10pt !important;
-}
-
-body {
-    background-color: rgb(0, 0, 0);
-    background-image: url('IMG_20181018_080933.jpg');
-    background-size: cover;
-}
-
-body > .reveal {
-    background-color: rgba(2, 84, 125, 0.9);
+    position: relative;
+    top: 25px;
 }
