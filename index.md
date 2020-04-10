@@ -2,7 +2,7 @@
 layout: web
 lang: en
 title: Ing. Petr Knap
-description: Software engineer with experience & master degree
+description: More than software engineer with experience & master degree
 cta:
   icon: linkedin-square
   text: Check me now
@@ -17,10 +17,10 @@ sections:
           Build **Kubernetes cluster** for your online application
       - icon: cube
         content: |+
-          Create web, backup, VPN or other **application server**
+          Create web, backup, VPN and other **application server**
       - icon: users
         content: |+
-          Organize **training, course or workshop** for your team
+          Organize **training, course and workshop** for your team
       - icon: hdd-o
         content: |+
           **Backup data** from your storage to off-site destination
@@ -109,9 +109,9 @@ sections:
         content: |+
           ### Graduated man
 
-          in **Information Technology** (Ing.) from [FEI](https://www.upce.cz/fei/) [UPce](https://www.upce.cz/)<br>
-          in Information and **Control Technologies** (Bc.) from [FAI](https://www.utb.cz/fai/) [UTB](https://www.utb.cz/)<br>
-          in Elektronické počítačové systémy from [SPŠ Trutnov](https://spstrutnov.cz/)<br>
+          in **Information Technology** (Ing.) from [FEI](https://fei.upce.cz/) [UPce](https://www.upce.cz/)<br>
+          in Information and **Control Technologies** (Bc.) from [FAI](https://fai.utb.cz/) [UTB](https://www.utb.cz/)<br>
+          in Elektronické počítačové systémy from [SPŠ Trutnov](https://www.spstrutnov.cz/)<br>
       -
         icon: id-card
         content: |+

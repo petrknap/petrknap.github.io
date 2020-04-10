@@ -2,7 +2,7 @@
 layout: web
 lang: cs
 title: Ing. Petr Knap
-description: Softwarový inženýr s praxí i vysokoškolským vzděláním
+description: Více než softwarový inženýr s praxí a vysokoškolským vzděláním
 cta:
   icon: linkedin-square
   text: Proklepněte si mne
@@ -17,10 +17,10 @@ sections:
           Postavit **Kubernetes kluster** pro Vaši online aplikaci
       - icon: cube
         content: |+
-          Vytvořit webový, záložní, VPN nebo jiný **aplikační server**
+          Vytvořit webový, záložní, VPN a jiný **aplikační server**
       - icon: users
         content: |+
-          Zorganizovat **trénink, školení nebo workshop** pro Váš tým
+          Zorganizovat **trénink, školení a workshop** pro Váš tým
       - icon: hdd-o
         content: |+
           **Zálohovat data** z Vašeho úložistě na off-site zařízení
@@ -109,9 +109,9 @@ sections:
         content: |+
           ### Vzdělaný můž
 
-          **Informační technologie** (Ing.) na [FEI](https://www.upce.cz/fei/) [UPce](https://www.upce.cz/)<br>
-          Informační a **řídicí technologie** (Bc.) na [FAI](https://www.utb.cz/fai/) [UTB](https://www.utb.cz/)<br>
-          Elektronické počítačové systémy na [SPŠ Trutnov](https://spstrutnov.cz/)<br>
+          **Informační technologie** (Ing.) na [FEI](https://fei.upce.cz/) [UPce](https://www.upce.cz/)<br>
+          Informační a **řídicí technologie** (Bc.) na [FAI](https://fai.utb.cz/) [UTB](https://www.utb.cz/)<br>
+          Elektronické počítačové systémy na [SPŠ Trutnov](https://www.spstrutnov.cz/)<br>
       -
         icon: id-card
         content: |+
