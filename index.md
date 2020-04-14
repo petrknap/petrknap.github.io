@@ -8,7 +8,7 @@ cta:
   text: Check me now
   link: https://www.linkedin.com/in/pknap
 sections:
-  - icon: info
+  - icon: laptop
     content: |+
       ## What can I do for you?
     carousel:

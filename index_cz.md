@@ -8,9 +8,9 @@ cta:
   text: Proklepněte si mne
   link: https://www.linkedin.com/in/pknap
 sections:
-  - icon: info
+  - icon: laptop
     content: |+
-      ## S čím Vám mohu pomoci?
+      ## Co pro Vás můžu udělat?
     carousel:
       - icon: cubes
         content: |+
@@ -107,7 +107,7 @@ sections:
       -
         icon: graduation-cap
         content: |+
-          ### Vzdělaný můž
+          ### Vzdělaný muž
 
           **Informační technologie** (Ing.) na [FEI](https://fei.upce.cz/) [UPce](https://www.upce.cz/)<br>
           Informační a **řídicí technologie** (Bc.) na [FAI](https://fai.utb.cz/) [UTB](https://www.utb.cz/)<br>
