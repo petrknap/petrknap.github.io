@@ -17,25 +17,58 @@ sections:
           Postavit **Kubernetes kluster** pro Vaši online aplikaci
       - icon: cube
         content: |+
-          Vytvořit webový, záložní, VPN a jiný **aplikační server**
+          Vytvořit a spravovat webový, záložní či jiný **aplikační server**
+      - icon: refresh
+        content: |+
+          Migrovat Vaši aplikaci na **nové technologie**
+      - icon: forward
+        content: |+
+          **Paralelizovat Vaši aplikaci** pomocí multithreadingu a front
+      - icon: paper-plane
+        content: |+
+          Implementovat **odesílání a analýzu e-mailů** skrze Mailgun
       - icon: users
         content: |+
           Zorganizovat **trénink, školení a workshop** pro Váš tým
+      - icon: shield
+        content: |+
+          Zkontrolovat **pravidla zabezpečení** Vašeho projektu či firmy
       - icon: hdd-o
         content: |+
           **Zálohovat data** z Vašeho úložistě na off-site zařízení
+      - icon: heartbeat
+        content: |+
+          Nastavit **monitorování stavu** Vašich služeb
+      - icon: bar-chart
+        content: |+
+          **Zpracovat a analyzovat** Vaše aplikační a systémové logy
       - icon: cogs
         content: |+
-          Návrh a implementace **Vašich softwarových nápadů**
+          Návrhnout a implementovat **Vaše softwarové nápady**
       - icon: eye
         content: |+
           Udělat **code review** a ukázat Vám jak se můžete zlepšit
       - icon: book
         content: |+
           Naučit Vás **pokročilé techniky** programování
+      - icon: plus
+        content: |+
+          **Vylepšit** Vaši existující aplikaci
       - icon: desktop
         content: |+
           **Vybrat a sestavit** Váš nový hardware
+      - icon: plug
+        content: |+
+          Vybrat a zprovoznit Váš **zdroj záložního napájení** (UPS)
+      - icon: database
+        content: |+
+          Složit a **nastavit Vaše RAID** úložiště
+      - icon: compress
+        content: |+
+          **Zmenšit** Vaše archivovaná data
+      - icon: laptop
+        content: |+
+          Naučit Vás **jak používat** Váš nový software a hardware
       - icon: bookmark
         content: |+
           Udělat více, čtěte níže
@@ -59,6 +92,7 @@ sections:
 
           * Návrh, implementace a údržba **Kubernetes klusterů** a x86/ARM **serverů**/počítačů
           * Poskytování **Off-site zálohovací služby**
+          * **Technická podpora** pro Váš stávající hardware
       -
         icon: users
         content: |+
@@ -67,6 +101,8 @@ sections:
            * Trénink, **školení a workshopy**
            * Pravidelné i jednorázové **konzultace** k vývoji softwaru a výběru hardwaru
            * **Snižování nákladů** dlouhodobého vývoje a údržby softwaru a hardwaru
+           * Zhodnocení a zlepšení **stavu zabezpečení**
+           * **Pomoc** se softwarem třetích stran
   -
     icon: user
     content: |+

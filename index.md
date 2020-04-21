@@ -17,13 +17,31 @@ sections:
           Build **Kubernetes cluster** for your online application
       - icon: cube
         content: |+
-          Create web, backup, VPN and other **application server**
+          Create and manage web, backup or other **application server**
+      - icon: refresh
+        content: |+
+          Migrate your application to **new technology**
+      - icon: forward
+        content: |+
+          **Paralelize your application** via multithreading and queues
+      - icon: paper-plane
+        content: |+
+          Implement **e-mail sending and analytics** via Mailgun
       - icon: users
         content: |+
           Organize **training, course and workshop** for your team
+      - icon: shield
+        content: |+
+          Check **security policies** in your project or company
       - icon: hdd-o
         content: |+
           **Backup data** from your storage to off-site destination
+      - icon: heartbeat
+        content: |+
+          Set up **status monitoring** of your services
+      - icon: bar-chart
+        content: |+
+          **Process and analyze** your application and system logs
       - icon: cogs
         content: |+
           Design and implement **your software idea**
@@ -33,9 +51,24 @@ sections:
       - icon: book
         content: |+
           Teach you some **advanced techniques** of programming
+      - icon: plus
+        content: |+
+          **Improve** your existing application
       - icon: desktop
         content: |+
           **Select and assemble** your new hardware
+      - icon: plug
+        content: |+
+          Select and start up your **uninterruptible power supply** (UPS)
+      - icon: database
+        content: |+
+          Compose and **set up your RAID** storage
+      - icon: compress
+        content: |+
+          **Compact** your archived data
+      - icon: laptop
+        content: |+
+          Teach you **how to use** your new software and hardware
       - icon: bookmark
         content: |+
           Do more for you, read below
@@ -59,6 +92,7 @@ sections:
           
           * Design, implementation and administration of **Kubernetes clusters** and x86/ARM **servers**/computers
           * Providing **Off-site Backup Service**
+          * **Technical support** for your current hardware
       -
         icon: users
         content: |+
@@ -67,6 +101,8 @@ sections:
            * Trainings, **courses and workshops**
            * Regular and one-time **consultations** about software development and hardware choosing
            * **Reducing cost** of long-term development and maintenance of software and hardware
+           * **Security status** reviews and improvements
+           * **Help** with third-party software
   -
     icon: user
     content: |+
