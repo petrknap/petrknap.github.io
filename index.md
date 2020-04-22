@@ -1,8 +1,21 @@
 ---
 layout: web
 lang: en
-title: Ing. Petr Knap
-description: More than software engineer with experience & master degree
+title: Ing. Petr Knap - IT consultant, SW developer, Dev-Ops Engineer, HW fan
+description: >
+  The right person for these who
+  develops software,
+  needs IT consultations,
+  uses Kubernetes clusters,
+  have own servers,
+  needs new hardware,
+  tries to be excellent programmers,
+  creates new security policies,
+  ...
+  It's me, Ing. Petr Knap.
+header:
+  title: Ing. Petr Knap
+  description: More than software engineer with experience & master degree
 cta:
   icon: linkedin-square
   text: Check me now
