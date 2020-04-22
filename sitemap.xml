@@ -11,9 +11,15 @@ private: true
     {% unless page.path contains ".twig" %}
     {% unless page.path contains "assets/" %}
     {% assign lastChar = page.url | slice: -1, 1 %}
+    {% if page.url == '/index_cz' %}
+    <url>
+        <loc>https://petrknap.cz/</loc>
+    </url>
+    {% else %}
     <url>
         <loc>{{ page.url | prepend: site.url }}{% if lastChar != "/" %}.html{% endif %}</loc>
     </url>
+    {% endif %}
     {% endunless %}
     {% endunless %}
     {% endunless %}
