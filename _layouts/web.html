@@ -15,7 +15,8 @@
 <header class="container">
     <div class="page-header row">
         <div class="jumbotron col-xs-12 col-sm-12 col-md-10 col-lg-9">
-            <h1>{{ page.header.title }}</h1>
+            <h1 class="sr-only">{{ page.title }}</h1>
+            <h2 class="h1">{{ page.header.title }}</h2>
             <p>{{ page.header.description }}</p>
             <a href="{{ page.cta.link }}" class="btn btn-success btn-lg pull-right">
                 <i class="fa fa-{{ page.cta.icon }}" aria-hidden="true"></i> {{ page.cta.text }}
