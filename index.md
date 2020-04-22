@@ -4,15 +4,12 @@ lang: en
 title: Ing. Petr Knap - IT consultant, SW developer, Dev-Ops Engineer, HW fan
 description: >
   The right person for these who
-  develops software,
-  needs IT consultations,
-  uses Kubernetes clusters,
-  have own servers,
-  needs new hardware,
   tries to be excellent programmers,
-  creates new security policies,
+  develops software,
+  needs consultations,
+  uses Kubernetes clusters,
   ...
-  It's me, Ing. Petr Knap.
+  It's me, Petr Knap
 header:
   title: Ing. Petr Knap
   description: More than software engineer with experience & master degree

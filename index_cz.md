@@ -4,15 +4,12 @@ lang: cs
 title: Ing. Petr Knap - IT konzultant, SW developer, Dev-Ops, fanoušek HW
 description: >
   Ten pravý pro ty, kteří
-  vyvíjí software,
-  potřebují zkonzultovat IT,
-  používají Kubernetes klustery,
-  mají vlastní servery,
-  potřebují nový hardware,
   chtějí být excelentnímy programátory,
-  vytváří nové bezpečnostní politiky,
+  vyvíjí software,
+  potřebují konzultace,
+  používají Kubernetes klustery,
   ...
-  To jsem já, Ing. Petr Knap.
+  To jsem já, Petr Knap
 header:
     title: Ing. Petr Knap
     description: Více než softwarový inženýr s praxí a vysokoškolským vzděláním
