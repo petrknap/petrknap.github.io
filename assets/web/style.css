@@ -2,8 +2,10 @@
     margin: 25px;
 }
 
-.body-web section h2 {
-    margin-top: 2.5em;
+.body-web h1 span {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 2rem;
 }
 
 .jumbotron, .carousel-control, .carousel .jumbotron {

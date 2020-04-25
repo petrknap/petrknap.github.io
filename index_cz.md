@@ -10,9 +10,6 @@ description: >
   používají Kubernetes klustery,
   ...
   To jsem já, Petr Knap
-header:
-    title: Ing. Petr Knap
-    description: Více než softwarový inženýr s praxí a vysokoškolským vzděláním
 cta:
   icon: linkedin-square
   text: Proklepněte si mne

@@ -10,9 +10,6 @@ description: >
   uses Kubernetes clusters,
   ...
   It's me, Petr Knap
-header:
-  title: Ing. Petr Knap
-  description: More than software engineer with experience & master degree
 cta:
   icon: linkedin-square
   text: Check me now
