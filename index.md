@@ -162,5 +162,5 @@ sections:
 
           [kontakt@petrknap.cz](mailto:kontakt@petrknap.cz) / 08167940 / tmer95b<br>
           V Údolíčku 262<br>
-          541 02 Trutnov
+          541 02 Trutnov, Czech Republic
 ---
