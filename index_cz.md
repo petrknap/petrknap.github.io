@@ -160,7 +160,12 @@ sections:
         content: |+
           ### Ing. Petr Knap
 
-          [kontakt@petrknap.cz](mailto:kontakt@petrknap.cz) / 08167940 / tmer95b<br>
+          <p>
+          <script>
+            var a = 'nap.cz', b = 't@petrk', c = 'kontak';
+            document.write('<a href="ma' + 'il' + 'to' + ':' + c + b + a + '">' + c + b + a + '</a>');
+          </script> / 08167940 / tmer95b<br>
           V Údolíčku 262<br>
           541 02 Trutnov
+          </p>
 ---
