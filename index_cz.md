@@ -136,7 +136,7 @@ sections:
         content: |+
           ### Dev-Ops inženýr
 
-          Autor **spolehlyvých klusterů** a serverů používající [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) a [Ansible](https://www.ansible.com/).
+          Autor **spolehlivých klusterů** a serverů používající [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) a [Ansible](https://www.ansible.com/).
           **Linux a Windows** administrátor, skriptér a uživatel.
       -
         icon: server
