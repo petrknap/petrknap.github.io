@@ -1,15 +1,14 @@
 ---
 layout: web
 lang: cs
-title: Ing. Petr Knap - IT konzultant, SW developer, Dev-Ops, fanoušek HW
+title: Ing. Petr Knap - IT konzultant, SW developer, dev-ops, fanoušek HW
 description: >
-  Ten pravý pro ty, kteří
-  chtějí být excelentnímy programátory,
-  vyvíjí software,
-  potřebují konzultace,
-  používají Kubernetes klustery,
-  ...
-  To jsem já, Petr Knap
+  IT konzultant,
+  softwarový vývojář,
+  dev-ops inženýr,
+  fanoušek hardwaru,
+  vzdělaný můž a
+  částečně pasivní ochránce
 cta:
   icon: linkedin-square
   text: Proklepněte si mne

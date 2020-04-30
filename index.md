@@ -1,15 +1,14 @@
 ---
 layout: web
 lang: en
-title: Ing. Petr Knap - IT consultant, SW developer, Dev-Ops Engineer, HW fan
+title: Ing. Petr Knap - IT Consultant, SW Developer, Dev-Ops Engineer, HW Fan
 description: >
-  The right person for these who
-  tries to be excellent programmers,
-  develops software,
-  needs consultations,
-  uses Kubernetes clusters,
-  ...
-  It's me, Petr Knap
+  IT Consultant,
+  Software Developer,
+  Dev-Ops Engineer,
+  Hardware Fan,
+  Graduated man and
+  Semi-passive Conservationist
 cta:
   icon: linkedin-square
   text: Check me now
