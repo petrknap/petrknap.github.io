@@ -51,9 +51,9 @@ Current generation has **up to 4 cores** per CCX.
 Problem is that some technologies can force outer-CCX core switch.
 For example if first core hits high temperature algorithm can move its load to coolest core which probably sits in different CCX.
 
-As prove **I run CPU burner on 6 threads** which increases CCXes temperatures to same level and the **game becomes stable**.
 The biggest hint I found in [thread about Battlefield 1 "Battlefield 1 randomly crashes on AMD Ryzen"](https://forums.battlefield.com/en-us/discussion/144718/battlefield-1-randomly-crashes-on-amd-ryzen).
-It contains advanced to disable SMT - cutting threads to half reduces space for work of Cool'n'Quiet, etc.
+It contains advance to disable SMT - cutting threads to half reduces space for work of Cool'n'Quiet, etc.
+As prove **I run CPU burner on 6 threads** which increases CCXes temperatures to same level and the **game becomes stable**.
 
 
 
