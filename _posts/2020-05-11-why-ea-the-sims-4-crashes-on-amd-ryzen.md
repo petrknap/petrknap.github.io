@@ -16,7 +16,7 @@ keywords:
 
 I bought the Sims 4 a few weeks ago, and **I noticed that the game is extremely unstable**.
 It simply crashes after short time of gameplay, but only if the CPU utilization is low.
-After some testing I guess that I guess why it is crashing.
+After some testing I think I guessed why it is crashing.
 This problem probably occurs in many EA games on multi-CCX CPUs like **AMD Ryzen 5/7/9**, Threadrippers and EPYCs.
 
 If you are just **regular player [skip to the "How to fix it"](#how-to-fix-it)**.
