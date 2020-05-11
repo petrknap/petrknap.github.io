@@ -70,4 +70,5 @@ Or when you start the game:
 5. **Set affinity** to threads on same CCX
 
 Threads **0-5 are on the same CCX** probably on all problematic CPUs with enabled SMT.
+
 If you wish to have permanent solution (don't do that), go to the BIOS and disable all optimization technologies.
