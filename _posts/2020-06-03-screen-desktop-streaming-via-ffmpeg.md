@@ -22,7 +22,8 @@ If you will create a **stream via ffmpeg** than server will **control quality an
 ```bash
 ffmpeg -f x11grab \
        -r 30 \
-       -s $(xdpyinfo | grep 'dimensions:'|awk '{print $2}') -i $DISPLAY \
+       -s $(xdpyinfo | grep 'dimensions:'|awk '{print $2}') \
+       -i $DISPLAY \
        -qscale 0 \
        -an \
        -vcodec mpeg2video \
