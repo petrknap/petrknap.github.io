@@ -19,7 +19,7 @@ If you will create a **stream via ffmpeg** than server will **control quality an
 
 ## Server
 
-```shell script
+```bash
 ffmpeg -f x11grab \
        -r 30 \
        -s $(xdpyinfo | grep 'dimensions:'|awk '{print $2}') -i $DISPLAY \
@@ -42,7 +42,7 @@ You need to append `?listen` if you wish to use TCP (f.e.: `tcp://0.0.0.0:12345?
 
 ## Client
 
-```shell script
+```bash
 ffplay -fflags nobuffer -flags low_delay -framedrop udp://127.0.0.1:12345
 ```
 
