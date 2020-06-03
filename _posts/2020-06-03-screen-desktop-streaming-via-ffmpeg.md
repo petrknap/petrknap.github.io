@@ -17,7 +17,7 @@ In these cases you can use many applications like Skype and Hangouts but you don
 If you will create a **stream via ffmpeg** than server will **control quality and** client will control **scale**.
 
 
-## Server
+## Server (streamer)
 
 ```bash
 ffmpeg -f x11grab \
@@ -41,7 +41,7 @@ Where
 You need to append `?listen` if you wish to use TCP (f.e.: `tcp://0.0.0.0:12345?listen`).
 
 
-## Client
+## Client (watcher)
 
 ```bash
 ffplay -fflags nobuffer -flags low_delay -framedrop udp://127.0.0.1:12345
