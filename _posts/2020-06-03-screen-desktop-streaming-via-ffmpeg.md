@@ -22,7 +22,7 @@ If you will create a **stream via ffmpeg** than server will **control quality an
 ```bash
 ffmpeg -f x11grab \
        -r 30 \
-       -s $(xdpyinfo | grep 'dimensions:'|awk '{print $2}') \
+       -s $(xdpyinfo | grep 'dimensions:' | awk '{print $2}') \
        -i $DISPLAY \
        -qscale 0 \
        -an \
@@ -33,7 +33,7 @@ ffmpeg -f x11grab \
 Where
 `-f x11grab` is **source**,
 `-r 30` is **framerate**,
-`-s $(xdpyinfo | grep 'dimensions:'|awk '{print $2}') -i $DISPLAY` determine captured **area**,
+`-s $(xdpyinfo | grep 'dimensions:' | awk '{print $2}') -i $DISPLAY` determine captured **area**,
 `-qscale 0` disables **scaling**,
 `-an` disables **audio**,
 `-vcodec mpeg2video` determines **video codec** H.262 and
