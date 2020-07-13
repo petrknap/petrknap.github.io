@@ -3,7 +3,7 @@ layout: blueprint
 ---
 # Naming strategies for `doctrine/orm`
 
-## `PetrKnap\Doctrine\OrmMappingNamingStrategy\UnderscoreNamingStrategy`
+## `PetrKnap\Doctrine\OrmNamingStrategy\Mapping\UnderscoreNamingStrategy`
 
 Underscore naming strategy with support for namespaces and prefixes.
 
