@@ -20,7 +20,7 @@ class Kernel extends BaseKernel
     public function boot()
     {
         parent::boot();
-
+        // ...
         if (in_array(PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
             ContinuityChecker::init($this->container->get('doctrine.dbal.default_connection'));
         }
