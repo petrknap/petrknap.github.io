@@ -14,9 +14,10 @@ You can use helper `ContinuityChecker::init` to do this.
 <?php // src/Kernel.php
 // ...
 use PetrKnap\Doctrine\MigrationsContinuity\ContinuityChecker;
-
+// ...
 class Kernel extends BaseKernel
 {
+    // ...
     public function boot()
     {
         parent::boot();
