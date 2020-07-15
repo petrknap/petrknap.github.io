@@ -11,23 +11,21 @@ You can use helper `ContinuityChecker::init` to do this.
 ## Symfony
 
 ```php
-<?php
-
-namespace App;
-
+<?php // src/Kernel.php
 // ...
 use PetrKnap\Doctrine\MigrationsContinuity\ContinuityChecker;
-use Symfony\Component\HttpKernel\Kernel as BaseKernel;
 
 class Kernel extends BaseKernel
 {
-    // ...
     public function boot()
     {
         parent::boot();
 
-        ContinuityChecker::init($this->container->get('doctrine.dbal.default_connection'));
+        if (in_array(PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
+            ContinuityChecker::init($this->container->get('doctrine.dbal.default_connection'));
+        }
     }
+    // ...
 }
 ```
 
