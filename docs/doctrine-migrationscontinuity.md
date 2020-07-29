@@ -18,7 +18,7 @@ use PetrKnap\Doctrine\MigrationsContinuity\ContinuityChecker;
 class Kernel extends BaseKernel
 {
     // ...
-    public function boot()
+    public function boot(): void
     {
         parent::boot();
         // ...
