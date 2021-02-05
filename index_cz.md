@@ -144,7 +144,7 @@ sections:
           ### Fanoušek hardwaru
 
           Administrátor mnoha [Raspberry Pi](https://www.raspberrypi.org/) a virtuálních **serverů**.
-          Skladač AMD Zen + nVidia Turing **herních PC**.
+          Skladač **PC** určených na **práci, hraní her a těžbu**.
           Tvůrce **bezpečných WiFi Mesh** a **privátních N2N** a OpenVPN sítí.
       -
         icon: graduation-cap

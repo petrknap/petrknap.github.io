@@ -144,7 +144,7 @@ sections:
           ### Hardware Fan
 
           Administrator of multiple [Raspberry Pi](https://www.raspberrypi.org/) and virtual **servers**.
-          Creater of AMD Zen + nVidia Turing **gaming PCs**.
+          Creater of **PC** designed for **work, gaming and mining**.
           Maker of **secure WiFi Mesh** and **private N2N** and OpenVPN networks.
       -
         icon: graduation-cap
