@@ -90,7 +90,7 @@ sections:
 
           * Návrh, implementace a údržba **sofistikovaných softwarových** systémů
           * Pravidelné **code-review a konzultace** pro týmy s nedostatkem seniorních členů
-          * Správa **micro-service docker** serverů v **Kubernetes klusterech**
+          * Správa **micro-service docker** serverů nejen v **Kubernetes klusterech**
       -
         icon: microchip
         content: |+
@@ -136,7 +136,7 @@ sections:
         content: |+
           ### Dev-Ops inženýr
 
-          Autor **spolehlivých klusterů** a serverů používající [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) a [Ansible](https://www.ansible.com/).
+          Autor **klusterů a serverů** stojících na [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) a [Ansible](https://www.ansible.com/).
           **Linux a Windows** administrátor, skriptér a uživatel.
       -
         icon: server

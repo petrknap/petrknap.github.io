@@ -90,7 +90,7 @@ sections:
 
           * Design, implementation and administration of **sophisticated software** systems
           * Regular **code-reviews and consultations** for teams with a lack of senior members
-          * Administration of **micro-service docker** servers in **Kubernetes clusters**
+          * Administration of **micro-service docker** servers not only in **Kubernetes clusters**
       -
         icon: microchip
         content: |+
@@ -136,7 +136,7 @@ sections:
         content: |+
           ### Dev-Ops Engineer
 
-          Builder of **reliable clusters** and servers using [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) and [Ansible](https://www.ansible.com/).
+          Builder of **clusters and servers** based on [Kubernetes](https://kubernetes.io/), [Docker](https://www.docker.com/) and [Ansible](https://www.ansible.com/).
           **Linux and Windows** administrator, scripter and user.
       -
         icon: server
