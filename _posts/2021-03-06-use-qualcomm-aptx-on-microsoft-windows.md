@@ -25,7 +25,7 @@ compatible [audio driver for Intel AC 8260].
  2. Extract [audio driver for Intel AC 8260]
  3. Install extracted `Intel Bluetooth Audio.msi`
  4. Pair compatible headphones or speakers, I used [Haylou GT1 Plus]
- 5. Install missing A2DP driver manually via Device Manager from `%ProgramFiles(x86)%\Intel\HPWA\drivers\ibta2db.inf`
+ 5. Install missing A2DP driver manually via Device Manager from `%ProgramFiles(x86)%\Intel\HPWA\drivers\ibta2dp.inf`
 
 The last step is optional, do it only if system didn't do it automatically.
 If everything is working **you will see**
