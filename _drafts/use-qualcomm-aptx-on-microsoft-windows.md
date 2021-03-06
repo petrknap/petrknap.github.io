@@ -1,7 +1,7 @@
 ---
 layout: blog.post
 title: "Use Qualcomm #aptX on Microsoft #Windows"
-category: software
+category: hardware
 keywords:
     - Qualcomm aptX
     - Microsoft Windows
@@ -14,18 +14,18 @@ keywords:
 Do you like **good audio quality and wireless headphones**?
 Then you need [Qualcomm aptX], but it's not that easy to have it on Microsoft Windows as it should be.
 
-I found **compatible hardware and software** after a long research and some fails:
+I found **compatible hardware and software** after a long research and many fails:
 Bluetooth card [Intel AC 9260] as part of [GIGABYTE GC-WB1733D-I] and
 compatible [audio driver for Intel AC 8260].
 
 
-## How to install?
+## How to install
 
  1. **Let Windows to install drivers** from Windows Update service
  2. Extract [audio driver for Intel AC 8260]
  3. Install extracted `Intel Bluetooth Audio.msi`
  4. Pair compatible headphones or speakers, I used [Haylou GT1 Plus]
- 5. Manually install missing A2DP driver via Device Manager from `%progrsmfiles(x86)%\Intel\HPWA\drivers\ibta2db.inf`
+ 5. Install missing A2DP driver manually via Device Manager from `%ProgrsmFiles(x86)%\Intel\HPWA\drivers\ibta2db.inf`
 
 The last step is optional, do it only if system didn't do it automatically.
 If everything is working **you will see**
@@ -34,8 +34,8 @@ If everything is working **you will see**
 
 ![aptX powered by Intel](/notes/data/2021-03-06/intel-aptx/you-are-now-using-aptx.png)
 
-If everything works, reboot your computer.
-Then you will see this notification and everything is done.
+If everything works, **reboot** your computer.
+Then you will see this notification and **everything is done**.
 
 
 
