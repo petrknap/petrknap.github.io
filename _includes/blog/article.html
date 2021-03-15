@@ -8,7 +8,7 @@
     <footer class="row">
         <p class="col-sm-6 text-muted text-left small">
             <span class="sr-only">Share it on</span><span class="fa fa-share" aria-hidden="true"></span> <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | append: include.data.url | cgi_escape }}" target="_blank">Facebook</a>
-            <span class="sr-only">or tweet about it on</span><span class="fa fa-retweet" aria-hidden="true"></span> <a href="https://twitter.com/home?status={{ include.data.title | append: ' ' | append: site.url | append: include.data.url | cgi_escape }}" target="_blank">Twitter</a><span class="sr-only">.</span>
+            <span class="sr-only">or tweet about it on</span><span class="fa fa-retweet" aria-hidden="true"></span> <a href="https://twitter.com/intent/tweet?text={{ include.data.title | append: ' ' | append: site.url | append: include.data.url | cgi_escape }}" target="_blank">Twitter</a><span class="sr-only">.</span>
         </p>
         <p class="col-sm-6 text-muted text-right small">
             <span class="sr-only">Written on</span><span class="fa fa-calendar" aria-hidden="true"></span> {{ include.data.date | date: "%B %e, %Y" }}
