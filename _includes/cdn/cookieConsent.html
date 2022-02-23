@@ -3,6 +3,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.2/cookieconsent.min.css"
       integrity="sha256-RWqxpxUH7ZGrrhTJ0I+v+zc6e8cRpm5ENBt7i3u3KrQ="
       crossorigin="anonymous">
+<script>
+    var cookieConsentQueue = [];
+</script>
 {% endif %}
 
 {% if include.to == "body" %}
@@ -13,6 +16,14 @@
         crossorigin="anonymous"></script>
 <script>
     window.addEventListener("load", function () {
+        var statusCookie = "cookieConsentStatus";
+        var onStatusChange = function () {
+            if (window.cookieconsent.utils.getCookie(statusCookie) == window.cookieconsent.status.allow) {
+                cookieConsentQueue.forEach(function(callback) {
+                    callback();
+                });
+            }
+        };
         window.cookieconsent.initialise({
             "container": document.getElementById("CookieConsent"),
             "palette": {
@@ -27,9 +38,16 @@
             "theme": "edgeless",
             "position": "bottom-right",
             "content": {
-                "message": "Website uses cookies to distinguish you from other users. By continuing to browse the site, you are agreeing to the use of cookies."
-            }
-        })
+                "message": "Website uses cookies to distinguish you from other users.",
+                "dismiss": "Decline"
+            },
+            "type": "opt-in",
+            "cookie": {
+                "name": statusCookie
+            },
+            "onStatusChange": onStatusChange
+        });
+        onStatusChange();
     });
 </script>
 {% endif %}

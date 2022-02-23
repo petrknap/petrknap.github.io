@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="{{ page.lang }}">
 <head>
+    {% include cdn/cookieConsent.html to="head" %}
     {% include http_headers.html %}
     {% include meta.html %}
     <title>{{ page.title }}</title>
     {% include cdn/bootstrap.html to="head" %}
     {% include cdn/font-awesome.html %}
-    {% include cdn/cookieConsent2.html to="head" %}
     <link rel="icon" href="{{ site.url }}/assets/web/favicon.ico">
     <link rel="stylesheet" href="{{ site.url }}/assets/style.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/web/style.css">
@@ -113,9 +113,9 @@
         {% include footer.html %}
     </div>
 </footer>
+{% include cdn/cookieConsent.html to="body" %}
 {% include cdn/jQuery.html to="body" %}
 {% include cdn/bootstrap.html to="body" %}
-{% include cdn/cookieConsent2.html to="body" %}
 <script type="application/javascript" src="{{ site.url }}/assets/web/script.js"></script>
 {% include google_analytics.html %}
 </body>
