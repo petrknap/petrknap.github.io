@@ -39,3 +39,10 @@
     <span class="sr-only">Twitter</span>
 </a>
 {% endif %}
+
+{% if site.author.donate %}
+<a href="{{ site.author.donate }}" class="{{ include.a_class }}">
+    <span class="fa fa-gift" aria-hidden="true"></span>
+    <span class="sr-only">Donate</span>
+</a>
+{% endif %}
