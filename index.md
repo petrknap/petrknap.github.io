@@ -163,8 +163,6 @@ sections:
           <script>
             var a = 'nap.cz', b = 't@petrk', c = 'kontak';
             document.write('<a href="ma' + 'il' + 'to' + ':' + c + b + a + '">' + c + b + a + '</a>');
-          </script> / 08167940 / tmer95b<br>
-          V Údolíčku 262<br>
-          541 02 Trutnov, Czech Republic
+          </script> / <a href="https://wwwinfo.mfcr.cz/cgi-bin/ares/darv_res.cgi?ico=08167940&jazyk=en&xml=1">08167940</a> / tmer95b
           </p>
 ---
