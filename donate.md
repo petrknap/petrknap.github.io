@@ -25,8 +25,9 @@ sections:
         content: |+
           ### by crypto via Coinbase
 
-          * [Bitcoin]() - currently not available
-          * [Ethereum]() - currently not available
+          * [Bitcoin](https://commerce.coinbase.com/checkout/4acc234e-384c-4b1a-b002-062585e24ed1)
+          * [Ethereum](https://commerce.coinbase.com/checkout/4acc234e-384c-4b1a-b002-062585e24ed1)
+          * [Dogecoin](https://commerce.coinbase.com/checkout/4acc234e-384c-4b1a-b002-062585e24ed1)
   - icon: heart
     content: |+
       ## Thank you so much for your donation
