@@ -3,7 +3,3 @@ layout: blog
 ---
 
 {% include blog/article.html data=page content=content %}
-
-<div class="fb-comments"
-     data-href="{% if page.old_url %}{{ page.old_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}"
-     data-numposts="5"></div>

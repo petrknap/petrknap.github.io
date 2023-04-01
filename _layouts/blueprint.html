@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% include cdn/cookieConsent.html to="head" %}
     {% include http_headers.html %}
     {% include meta.html %}
     <title>petrknap/{% if page.name != "index.md" %}-{{ page.name | remove: ".md" }}{% endif %}</title>
@@ -87,10 +86,8 @@
     </div>
 </div>
 
-{% include cdn/cookieConsent.html to="body" %}
 {% include cdn/jQuery.html to="body" %}
 {% include cdn/bootstrap.html to="body" %}
 {% include cdn/pygments.html to="body" %}
-{% include google_analytics.html %}
 </body>
 </html>
