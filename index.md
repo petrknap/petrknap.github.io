@@ -163,6 +163,6 @@ sections:
           <script>
             var a = 'nap.cz', b = 't@petrk', c = 'kontak';
             document.write('<a href="ma' + 'il' + 'to' + ':' + c + b + a + '">' + c + b + a + '</a>');
-          </script> / <a href="https://wwwinfo.mfcr.cz/cgi-bin/ares/darv_res.cgi?ico=08167940&jazyk=en&xml=1">08167940</a> / tmer95b
+          </script> / <a href="https://wwwinfo.mfcr.cz/cgi-bin/ares/darv_res.cgi?ico=08167940&jazyk=en&xml=1">08167940</a> / <a href="https://www.mojedatovaschranka.cz/sds/searchList?start=null&extendedSearch=no&searchCriterion=ovm_name_of_subject&searchValue=tmer95b">tmer95b</a>
           </p>
 ---
