@@ -28,7 +28,7 @@
                         {% assign tags_list = site.categories %}
                         {% for position in (1..99) %}
                         {% for tag in tags_list %}
-                        {% assign tmp_tag_page = (site.pages | where: "category", tag[0] | first) %}
+                        {% assign tmp_tag_page = site.pages | where: "category", tag[0] | first %}
                         {% if tmp_tag_page.position == position %}
                         <li {% if page.category == tag[0] %}class="active" {% endif %}>
                             <a href="{{ tmp_tag_page.url }}.html">

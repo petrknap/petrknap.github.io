@@ -1,2 +1,3 @@
-/.idea/
-/_site/
+/bin/
+!/bin/jekyll.bash
+/README.md
