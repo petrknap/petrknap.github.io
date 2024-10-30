@@ -48,6 +48,7 @@ blog:
   urls:
     home: /notes/
     issues: https://github.com/petrknap/petrknap.github.io/issues
+    pull_request: https://github.com/petrknap/petrknap.github.io/pull/#
 
 web:
   menu:
