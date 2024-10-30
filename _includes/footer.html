@@ -1,8 +1,9 @@
 <p>
     <span class="whiteSpaceNowrap">
-        {{ site.created_on }} - <script>
+        {{ site.created_on }}<script>
+            document.write(' &ndash; ');
             document.write(new Date().getFullYear());
-        </script> <a href="{{ site.author.web }}">{{ site.author.name }}</a>
+        </script> by <a href="{{ site.author.web }}">{{ site.author.name }}</a>.
     </span>
     <span class="whiteSpaceNowrap">
         It's hosted on <a href="https://github.com/" target="_blank">GitHub</a>

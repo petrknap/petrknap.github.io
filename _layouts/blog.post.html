@@ -2,4 +2,16 @@
 layout: blog
 ---
 
-{% include blog/article.html data=page content=content %}
+{% capture post_content %}
+{{ content }}
+{% if page.pull_request_id %}
+<div class="text-center well">
+    <a class="btn btn-lg btn-primary" href="{{ site.blog.urls.pull_request | replace: '#', page.pull_request_id }}" target="_blank">
+        Checkout the Comments!
+        <span class="badge">New</span>
+    </a>
+</div>
+{% endif %}
+{% endcapture %}
+
+{% include blog/post.html data=page content=post_content %}

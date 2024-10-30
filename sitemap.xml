@@ -8,7 +8,6 @@ private: true
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in site.pages %}
     {% unless page.private %}
-    {% unless page.path contains ".twig" %}
     {% unless page.path contains "assets/" %}
     {% assign lastChar = page.url | slice: -1, 1 %}
     {% if page.url == '/index_cz' %}
@@ -20,7 +19,6 @@ private: true
         <loc>{{ page.url | prepend: site.url }}{% if lastChar != "/" %}.html{% endif %}</loc>
     </url>
     {% endif %}
-    {% endunless %}
     {% endunless %}
     {% endunless %}
     {% endfor %}
