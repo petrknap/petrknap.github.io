@@ -12,6 +12,6 @@ layout: blog
 {% endif %}
 {% for post in tmp_posts %}
 {% capture post_content %}<blockquote cite="{{ post.url }}">{{ post.excerpt }}</blockquote>{% endcapture %}
-{% include blog/article.html data=post content=post_content %}
+{% include blog/post.html data=post content=post_content %}
 {% endfor %}
 {% assign tmp_posts = null %}
