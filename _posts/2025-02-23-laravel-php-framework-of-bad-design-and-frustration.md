@@ -78,17 +78,22 @@ class SendEmails extends Command {
 
 The decision to use properties and "dynamic" methods instead of interfaces (or abstracts) is very bad, and I think it's the main reason why **working with [Laravel] is so frustrating**.
 
-**Sad Fact:** [Laravel] is built on the [Symfony], which, as you can see above, is well-designed.
+**Sad Fact:**
+[Laravel] is built on the [Symfony], which, as you can see above, is well-designed.
+This means that considerable efforts have been made to make [Artisan] worse.
 
 
-## Unusable Constructors, Inconsistent Visibilities, and Property Collisions
+## Unusable Constructors, Inconsistencies, and Collisions Everywhere
 
-[Eloquent] (and many other components) takes this bad-design a few more steps further and adds some extras as some things can be protected while others **must be public** and there's more of it...
+[Eloquent] (and many other components) takes this bad-design a few more steps further and adds some extras as some things **can be protected** while others **must be public**, some are **properties** while others are **constants**, but other others are even **methods**, and there's more of it...
 ```php
 class Flight extends Model {
+    const CREATED_AT = 'created_at';
+    public $incrementing = true;
+    public $timestamps = false;
     protected $table = 'flights';
     protected $primaryKey = 'id';
-    public $incrementing = true;
+    public function createdBy(): HasOne { /* ... */ }
 }
 ```
 
@@ -109,12 +114,9 @@ What does this imply?
   ```php
   $flight = new Flight();
   $flight->created_at = $now;
-  $flight->created_by_id = $user->id; // I can't call $flight->createdBy = $user, instead I must do this and then save, refresh and delete $flight
-  $flight->save();
-  $flight->refresh();
+  $flight->created_by_id = $user->id;
   // ...
   if ($flight->created_at == $now && $flight->createdBy == $user) { /* ... */ }
-  $flight->delete();
   ```
 
 Instead, consider a cleaner approach by [Doctrine]:
@@ -154,7 +156,8 @@ class Flight
 }
 ```
 
-**Sad Fact:** [Eloquent] was based on [Doctrine] until recently so it also **deviates from this clean design**.
+**Sad Fact:**
+[Eloquent] was based on [Doctrine] until recently so it also **deviates from this clean design**.
 
 
 ## Magic Everywhere
@@ -205,16 +208,18 @@ function countPassengers(Flight $flight): int {
 The function has (at first look) only dependency on some data object.
 On code review we are checking `$thirdPartyFlightService->countPassengers($flight)` which should be safe, but it is able to change ticket price and admin's e-mail.
 
-**Sad fact:** This is irrelevant, because **everyone can do everything everywhere** via bad-design of something called "[Facades]".
+**Sad Fact:**
+This is irrelevant, because **everyone can do everything everywhere** via bad-design of something called "[Facades]".
+And you need to use this nonsense as **you aren't able to use DI** as you can't use constructors in many situations.
 
 
 ## <q>And then?</q>
 
 I could dissect [Laravel] component by component, package by package, but I want to keep it brief here.
-So what is the **main problem** which I have with [Laravel]?
+So what is the **main problem**?
 The entire framework looks like **the authors misunderstood the basic programming principles**, looked at the [Symfony] with [Doctrine], and then wrapped it up in a cumbersome, flawed blob that **brings numerous drawbacks**.
 
-What frustrates me the most about [Laravel] is that **it's not a greenfield project**; it's essentially a [Symfony] wrapper.
+What frustrates me the most about [Laravel] is that **it's not a school project or at least a greenfield project**; it's a [Symfony] wrapper developed for years by so many people.
 It's alarming **how much time has been spent crippling [Symfony]**.
 
 If I may ask the [Laravel] authors and community for **one thing**:
